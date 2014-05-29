@@ -1,0 +1,122 @@
+{
+	"extDesc": {
+		"message": "Speichern Sie das Startdatum eines Service, dem Veröffentlichungsdatum einer Web-Serie, Auktionen und viele Dinge von Ihrem Web",
+		"description": ""
+	},
+	"publicationAdded": {
+		"message": "Publication added",
+		"description": ""
+	},
+	"btnAdd": {
+		"message": "hinzufügen",
+		"description": ""
+	},
+	"btnClear": {
+		"message": "klar",
+		"description": ""
+	},
+	"inputUrlPlaceholder": {
+		"message": "Klicken Hinzufügen aktuelle URL oder kop/verg 1 url",
+		"description": ""
+	},
+	"labelDateTime": {
+		"message": "Wählen Sie nach Datum @ Uhr",
+		"description": ""
+	},
+	"labelDayCount": {
+		"message": "Wählen Sie in x Tage, x Stunden, x Minuten",
+		"description": ""
+	},
+	"inputPlaceholderDay": {
+		"message": "Zahl der Tage(n)",
+		"description": ""
+	},
+	"inputPlaceholderCount": {
+		"message": "Uhr",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "bestätigen",
+		"description": ""
+	},
+	"labelUrl": {
+		"message": "Wählen Sie url",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "bestätigen",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "Wählen Sie einen Titel",
+		"description": ""
+	},
+	"labelTitle": {
+		"message": "Wählen Sie Titel",
+		"description": ""
+	},
+	"btnDatetime": {
+		"message": "datum & Uhr",
+		"description": ""
+	},
+	"btnCountdown": {
+		"message": "countdown",
+		"description": ""
+	},
+	"id": {
+		"message": "ID",
+		"description": ""
+	},
+	"title": {
+		"message": "Titel",
+		"description": ""
+	},
+	"url": {
+		"message": "Url",
+		"description": ""
+	},
+	"lang": {
+		"message": "Lang",
+		"description": ""
+	},
+	"preview": {
+		"message": "Preview",
+		"description": ""
+	},
+	"date": {
+		"message": "Datum",
+		"description": ""
+	},
+	"countdown": {
+		"message": "Countdown",
+		"description": ""
+	},
+	"alarm": {
+		"message": "Alarm",
+		"description": ""
+	},
+	"action": {
+		"message": "Wirkung",
+		"description": ""
+	},
+	"delete": {
+		"message": "löschen",
+		"description": ""
+	},
+	"yourEvent": {
+		"message": "Ihre Veranstaltung",
+		"description": ""
+	},
+	"startEvent": {
+		"message": "wird in wenigen Augenblicken starten (weniger als 1 Minute)",
+		"description": ""
+	},
+	"btnEvent": {
+		"message": "Goto Veranstaltung",
+		"description": ""
+	},
+	"infoEvent": {
+		"message": "Klicken Sie diesen Dialog, um Links zu folgen.",
+		"description": ""
+	}
+}

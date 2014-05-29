@@ -1,0 +1,122 @@
+{
+	"extDesc": {
+		"message": "Guardar la fecha de inicio de un servicio, la fecha de lanzamiento de una serie web, subastas y muchas cosas de tu Web",
+		"description": ""
+	},
+	"publicationAdded": {
+		"message": "Publication added",
+		"description": ""
+	},
+	"btnAdd": {
+		"message": "Agregar",
+		"description": ""
+	},
+	"btnClear": {
+		"message": "Claro",
+		"description": ""
+	},
+	"inputUrlPlaceholder": {
+		"message": "clic Agregar para url corriente o copiar/pasado 1 url",
+		"description": ""
+	},
+	"labelDateTime": {
+		"message": "Elija por fecha @ reloj",
+		"description": ""
+	},
+	"labelDayCount": {
+		"message": "En Seleccione x dias, x hora, x mins",
+		"description": ""
+	},
+	"inputPlaceholderDay": {
+		"message": "número de días",
+		"description": ""
+	},
+	"inputPlaceholderCount": {
+		"message": "reloj",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "validar",
+		"description": ""
+	},
+	"labelUrl": {
+		"message": "Elija url",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "validar",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "Elija un título",
+		"description": ""
+	},
+	"labelTitle": {
+		"message": "Elija título",
+		"description": ""
+	},
+	"btnDatetime": {
+		"message": "fecha & hora",
+		"description": ""
+	},
+	"btnCountdown": {
+		"message": "cuenta atrás",
+		"description": ""
+	},
+	"id": {
+		"message": "ID",
+		"description": ""
+	},
+	"title": {
+		"message": "Título",
+		"description": ""
+	},
+	"url": {
+		"message": "Url",
+		"description": ""
+	},
+	"lang": {
+		"message": "Idioma",
+		"description": ""
+	},
+	"preview": {
+		"message": "Preview",
+		"description": ""
+	},
+	"date": {
+		"message": "Fecha",
+		"description": ""
+	},
+	"countdown": {
+		"message": "Atrás",
+		"description": ""
+	},
+	"alarm": {
+		"message": "Alarma",
+		"description": ""
+	},
+	"action": {
+		"message": "Acción",
+		"description": ""
+	},
+	"delete": {
+		"message": "Suprimir",
+		"description": ""
+	},
+	"yourEvent": {
+		"message": "Su evento",
+		"description": ""
+	},
+	"startEvent": {
+		"message": "se comenzará en pocos segundos (menos de 1 minuto)",
+		"description": ""
+	},
+	"btnEvent": {
+		"message": "Ir al evento",
+		"description": ""
+	},
+	"infoEvent": {
+		"message": "Click dialog box para seguir los enlaces",
+		"description": ""
+	}
+}

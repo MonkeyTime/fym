@@ -1,0 +1,122 @@
+{
+	"extDesc": {
+		"message": "Bevrijd je geest en noteer de startdatum van een dienst, de release datum van een web-serie, veilingen en vele dingen van JE Web",
+		"description": ""
+	},
+	"publicationAdded": {
+		"message": "Publication added",
+		"description": ""
+	},
+	"btnAdd": {
+		"message": "toevoegen",
+		"description": ""
+	},
+	"btnClear": {
+		"message": "vrij",
+		"description": ""
+	},
+	"inputUrlPlaceholder": {
+		"message": "Klik op Toevoegen url of te kopiëren/langs een url",
+		"description": ""
+	},
+	"labelDateTime": {
+		"message": "Kies op datum @ klok",
+		"description": ""
+	},
+	"labelDayCount": {
+		"message": "Kies in x dagen, x uur, x mins",
+		"description": ""
+	},
+	"inputPlaceholderDay": {
+		"message": "aantal dag(en)",
+		"description": ""
+	},
+	"inputPlaceholderCount": {
+		"message": "klok",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "bevestigen",
+		"description": ""
+	},
+	"labelUrl": {
+		"message": "Kies url",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "bevestigen",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "Kies een titel",
+		"description": ""
+	},
+	"labelTitle": {
+		"message": "Kies titel",
+		"description": ""
+	},
+	"btnDatetime": {
+		"message": "datum & klok",
+		"description": ""
+	},
+	"btnCountdown": {
+		"message": "countdown",
+		"description": ""
+	},
+	"id": {
+		"message": "ID",
+		"description": ""
+	},
+	"title": {
+		"message": "Titel",
+		"description": ""
+	},
+	"url": {
+		"message": "Url",
+		"description": ""
+	},
+	"lang": {
+		"message": "Taal",
+		"description": ""
+	},
+	"preview": {
+		"message": "Preview",
+		"description": ""
+	},
+	"date": {
+		"message": "Datum",
+		"description": ""
+	},
+	"countdown": {
+		"message": "Aftelprocedure",
+		"description": ""
+	},
+	"alarm": {
+		"message": "Alarm",
+		"description": ""
+	},
+	"action": {
+		"message": "Actie",
+		"description": ""
+	},
+	"delete": {
+		"message": "Verwijder",
+		"description": ""
+	},
+	"yourEvent": {
+		"message": "Uw evenement",
+		"description": ""
+	},
+	"startEvent": {
+		"message": "zal starten in een paar seconden (minder dan 1 minuut)",
+		"description": ""
+	},
+	"btnEvent": {
+		"message": "Ga naar evenement",
+		"description": ""
+	},
+	"infoEvent": {
+		"message": "Click dialog box om te volgen links",
+		"description": ""
+	}
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html style="min-width:345px; width: 345px;">
+  <head>
+    <meta charset="utf-8">
+    <title>Chrome: FYM - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <meta itemprop="description" content="Extension for Chromium navigators: FYM - Free Your Mind">
+  </head>
+  <body>
+    <div class="g-r">
+      
+      <div class="u-1 p2">
+        <form  class="form form-aligned" action="">
+        <fieldset>
+        <div class="control-group">
+            <button id="add" class="btn btn-empty btn-brd brd-black txt70 txtu black mt3">Add</button>
+            <button id="clear" class="btn btn-empty btn-brd brd-black txt70 txtu black mt3">Clear</button>
+        </div>
+        <div class="control-group">
+        	<div id="labelUrl" class="pt3 txt90" style="display:none">Choose url</div>
+            <input id="url" name="url" class="input-1-4 mt3" type="text" placeholder="click ADD to add current url or copy/past one url" required>
+        </div>
+        <div id="whenBtnAddIsClicked" style="display:none">
+            <div class="control-group">
+                <label id="labelTitle" class="pt3 txt90" for="title">Choose title</label>
+                <input id="title" name="title" class="input-1-4 mt3" type="text" placeholder="Choose one title">
+            </div>
+            <div class="controls">
+                <a id="datetime" class="nohref" href="#">date & clock</a> |
+                <a id="countdown" class="nohref" href="#">countdown</a>
+            </div>
+            <div id="datetimer" class="control-group">
+                <label id="labelDateTime" class="pt3 txt90" for="date">Choose by date @ clock</label>
+                <input id="date" name="date" class="input-1-4" type="date" required>
+                <input id="time" name="time" class="input-1-8" type="time" required>
+            </div>
+            <div id="counter" class="control-group" style="display:none">
+                <label id="labelDayCount" class="pt3 txt90" for="day">Choose in n days, n hours, n mins</label>
+                <input id="day" name="day" class="input-1-4" type="number" placeholder="number of day(s)" required>
+                <input id="count" name="count" class="input-1-8" type="time" required>
+            </div>
+            <div class="controls">
+                <button id="validate" class="btn btn-empty btn-brd brd-black txt70 txtu black">Validate</button> <span id="message" class="alert alert-info"></span>
+            </div>
+        </div>
+        <input class="input-1-8" id="imgData" name="imgData" type="hidden">
+        <input class="input-1-8" id="lang" name="lang" type="hidden">
+        </fieldset>
+        </form>
+     </div>
+     
+    </div>
+    <script src="fym.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+{
+	"extDesc": {
+		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"description": ""
+	},
+	"publicationAdded": {
+		"message": "Publication added",
+		"description": ""
+	},
+	"btnAdd": {
+		"message": "Add",
+		"description": ""
+	},
+	"btnClear": {
+		"message": "Clear",
+		"description": ""
+	},
+	"inputUrlPlaceholder": {
+		"message": "click ADD to add current url or copy/past one url",
+		"description": ""
+	},
+	"labelDateTime": {
+		"message": "Choose by date @ clock",
+		"description": ""
+	},
+	"labelDayCount": {
+		"message": "Choose in n days, n hours, n mins",
+		"description": ""
+	},
+	"inputPlaceholderDay": {
+		"message": "number of day(s)",
+		"description": ""
+	},
+	"labelUrl": {
+		"message": "Choose url",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "Validate",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "Choose one title",
+		"description": ""
+	},
+	"labelTitle": {
+		"message": "Choose title",
+		"description": ""
+	},
+	"btnDatetime": {
+		"message": "date & clock",
+		"description": ""
+	},
+	"btnCountdown": {
+		"message": "countdown",
+		"description": ""
+	},
+	"id": {
+		"message": "ID",
+		"description": ""
+	},
+	"title": {
+		"message": "Title",
+		"description": ""
+	},
+	"url": {
+		"message": "Url",
+		"description": ""
+	},
+	"lang": {
+		"message": "Lang",
+		"description": ""
+	},
+	"preview": {
+		"message": "Preview",
+		"description": ""
+	},
+	"date": {
+		"message": "Date",
+		"description": ""
+	},
+	"countdown": {
+		"message": "Countdown",
+		"description": ""
+	},
+	"alarm": {
+		"message": "Alarm",
+		"description": ""
+	},
+	"action": {
+		"message": "Action",
+		"description": ""
+	},
+	"delete": {
+		"message": "Delete",
+		"description": ""
+	},
+	"yourEvent": {
+		"message": "Your Event",
+		"description": ""
+	},
+	"startEvent": {
+		"message": "will start in a few moments (less then 1 minute)",
+		"description": ""
+	},
+	"infoEvent": {
+		"message": "Click this dialog to follow links.",
+		"description": ""
+	}
+}

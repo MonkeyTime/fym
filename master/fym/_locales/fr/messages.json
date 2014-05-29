@@ -1,0 +1,110 @@
+{
+	"extDesc": {
+		"message": "Enregistrez la date de démarrage d'un service, d' une web-série, des ventes aux enchères et beaucoup de choses à partir de VOTRE Web",
+		"description": ""
+	},
+	"publicationAdded": {
+		"message": "Publication ajoutée",
+		"description": ""
+	},
+	"btnAdd": {
+		"message": "Ajouter",
+		"description": ""
+	},
+	"btnClear": {
+		"message": "Reset",
+		"description": ""
+	},
+	"inputUrlPlaceholder": {
+		"message": "click AJOUTER pour url courante ou copier/coller 1 url",
+		"description": ""
+	},
+	"labelDateTime": {
+		"message": "Choisir par date @ horloge",
+		"description": ""
+	},
+	"labelDayCount": {
+		"message": "Choisir dans x jours, x heures, x mins",
+		"description": ""
+	},
+	"inputPlaceholderDay": {
+		"message": "nombre de jour(s)",
+		"description": ""
+	},
+	"labelUrl": {
+		"message": "Choisir url",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "Valider",
+		"description": ""
+	},
+	"inputTitle": {
+		"message": "Choisir un titre",
+		"description": ""
+	},
+	"labelTitle": {
+		"message": "Choisir le titre",
+		"description": ""
+	},
+	"btnDatetime": {
+		"message": "date & horloge",
+		"description": ""
+	},
+	"btnCountdown": {
+		"message": "compte à rebours",
+		"description": ""
+	},
+	"id": {
+		"message": "ID",
+		"description": ""
+	},
+	"title": {
+		"message": "Titre",
+		"description": ""
+	},
+	"url": {
+		"message": "Url",
+		"description": ""
+	},
+	"lang": {
+		"message": "Langue",
+		"description": ""
+	},
+	"preview": {
+		"message": "Preview",
+		"description": ""
+	},
+	"date": {
+		"message": "Date",
+		"description": ""
+	},
+	"countdown": {
+		"message": "Rebours",
+		"description": ""
+	},
+	"alarm": {
+		"message": "Alarme",
+		"description": ""
+	},
+	"action": {
+		"message": "Action",
+		"description": ""
+	},
+	"delete": {
+		"message": "Supprimer",
+		"description": ""
+	},
+	"yourEvent": {
+		"message": "Votre évènement",
+		"description": ""
+	},
+	"startEvent": {
+		"message": "démarrera dans quelques instants (moins d' 1 minute)",
+		"description": ""
+	},
+	"infoEvent": {
+		"message": "Click dialog box pour suivre les liens",
+		"description": ""
+	}
+}
