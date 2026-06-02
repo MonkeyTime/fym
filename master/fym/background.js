@@ -217,9 +217,9 @@ function rememberNotificationUrls(alerts) {
 function createAlertNotification(alert) {
   var title = alert.title || alert.url || 'FYM';
   var shortTitle = title.length > 40 ? title.substring(0, 37) + '...' : title;
-  var message = chrome.i18n.getMessage('yourEvent') + ' "' + shortTitle + '" ' +
-    chrome.i18n.getMessage('startEvent') + '. ' +
-    chrome.i18n.getMessage('infoEvent');
+  var message = i18nMessage('yourEvent', 'Your event') + ' "' + shortTitle + '" ' +
+    i18nMessage('startEvent', 'will start in a few moments (less than 1 minute)') + '. ' +
+    i18nMessage('infoEvent', 'Click this notification to open the link.');
 
   chrome.notifications.create(NOTIFICATION_PREFIX + alert.id, {
     type: 'basic',
@@ -227,4 +227,9 @@ function createAlertNotification(alert) {
     message: message,
     iconUrl: 'notify128.png'
   });
+}
+
+function i18nMessage(key, fallback) {
+  var translated = chrome.i18n.getMessage(key);
+  return translated || fallback;
 }

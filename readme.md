@@ -69,6 +69,14 @@ dist/fym-chrome-webstore-v0.3.zip
 
 The ZIP contains only the extension runtime files. Web Store listing assets are kept outside the runtime package.
 
+An Opera Add-ons compatible package is also generated at:
+
+```text
+dist/fym-opera-addons-v0.3.zip
+```
+
+This Opera package excludes `_locales` and uses a plain manifest description to avoid Opera upload validator path issues. The runtime JavaScript keeps English fallbacks for UI and notification strings.
+
 ## Permissions
 
 FYM uses a minimal set of permissions for its single purpose.
