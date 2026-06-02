@@ -116,6 +116,7 @@ master/fym/webstore-assets/
 Included assets:
 
 - `webstore-icon-128.png`
+- `fym-icon-64-transparent.png`
 - `fym-icon-512-transparent.png`
 - `promo-small-440x280.png`
 - `promo-large-920x680.png`
