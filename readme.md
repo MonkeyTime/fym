@@ -85,6 +85,8 @@ FYM does not use remote code. JavaScript files are packaged inside the extension
 
 Reminder data is stored locally with `chrome.storage.local`.
 
+Older versions stored reminders in IndexedDB. Version 0.3 automatically migrates existing IndexedDB reminders to `chrome.storage.local` the first time the extension starts, popup opens or options page opens.
+
 Stored data can include:
 
 - Page URL
