@@ -120,6 +120,7 @@ Included assets:
 - `promo-small-440x280.png`
 - `promo-large-920x680.png`
 - `marquee-1400x560.png`
+- `opera-addons-300x188.png`
 - `screenshot-date-1280x800.png`
 - `screenshot-countdown-1280x800.png`
 
