@@ -1,66 +1,58 @@
 {
 	"extDesc": {
-		"message": "Speichern Sie das Startdatum eines Service, dem Veröffentlichungsdatum einer Web-Serie, Auktionen und viele Dinge von Ihrem Web",
+		"message": "Speichere Startdaten von Diensten, Webserien, Auktionen und vielem mehr aus deinem Web",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Erinnerung hinzugefuegt",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "hinzufügen",
+		"message": "Hinzufuegen",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "klar",
+		"message": "Leeren",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Klicken Hinzufügen aktuelle URL oder kop/verg 1 url",
+		"message": "Klicke auf HINZUFUEGEN fuer die aktuelle URL oder fuege eine URL ein",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Wählen Sie nach Datum @ Uhr",
+		"message": "Nach Datum und Uhrzeit waehlen",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Wählen Sie in x Tage, x Stunden, x Minuten",
+		"message": "Nach Tagen, Stunden und Minuten waehlen",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "Zahl der Tage(n)",
-		"description": ""
-	},
-	"inputPlaceholderCount": {
-		"message": "Uhr",
-		"description": ""
-	},
-	"btnValidate": {
-		"message": "bestätigen",
+		"message": "Anzahl der Tage",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Wählen Sie url",
+		"message": "URL waehlen",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "Bestaetigen",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "bestätigen",
-		"description": ""
-	},
-	"inputTitle": {
-		"message": "Wählen Sie einen Titel",
+		"message": "Titel waehlen",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Wählen Sie Titel",
+		"message": "Titel waehlen",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "datum & Uhr",
+		"message": "Datum & Uhrzeit",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "Countdown",
 		"description": ""
 	},
 	"id": {
@@ -72,15 +64,15 @@
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Sprache",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Vorschau",
 		"description": ""
 	},
 	"date": {
@@ -96,27 +88,63 @@
 		"description": ""
 	},
 	"action": {
-		"message": "Wirkung",
+		"message": "Aktion",
 		"description": ""
 	},
 	"delete": {
-		"message": "löschen",
+		"message": "Loeschen",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Ihre Veranstaltung",
+		"message": "Dein Ereignis",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "wird in wenigen Augenblicken starten (weniger als 1 Minute)",
-		"description": ""
-	},
-	"btnEvent": {
-		"message": "Goto Veranstaltung",
+		"message": "beginnt in wenigen Momenten (weniger als 1 Minute)",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Klicken Sie diesen Dialog, um Links zu folgen.",
+		"message": "Klicke auf diese Benachrichtigung, um den Link zu oeffnen.",
+		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Start",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - Optionen",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Seitenerinnerung hinzufuegen",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Erinnerungsmodus",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Aktuelle Seite hinzufuegen",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "Der aktuelle Tab konnte nicht gelesen werden.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "Seitenvorschau wird erfasst...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Vorschau auf dieser Seite nicht verfuegbar.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "Vorschau erfasst",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Waehle ein zukuenftiges Datum oder einen Countdown.",
 		"description": ""
 	}
 }

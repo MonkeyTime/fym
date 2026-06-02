@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 
-<html style="min-width:345px; width: 345px;">
+<html class="fym-popup" lang="en">
   <head>
     <meta charset="utf-8">
     <title>Chrome: FYM - Home</title>
     <link rel="stylesheet" href="style.css">
     <meta itemprop="description" content="Extension for Chromium navigators: FYM - Free Your Mind">
   </head>
-  <body>
-    <div class="g-r">
-      
-      <div class="u-1 p2">
-        <form  class="form form-aligned" action="">
-        <fieldset>
-        <div class="control-group">
-            <button id="add" class="btn btn-empty btn-brd brd-black txt70 txtu black mt3">Add</button>
-            <button id="clear" class="btn btn-empty btn-brd brd-black txt70 txtu black mt3">Clear</button>
+  <body class="fym-popup-body">
+    <main class="fym-card" aria-live="polite">
+      <header class="fym-header">
+        <div>
+          <h1>FYM</h1>
+          <p>Free Your Mind</p>
         </div>
-        <div class="control-group">
-        	<div id="labelUrl" class="pt3 txt90" style="display:none">Choose url</div>
-            <input id="url" name="url" class="input-1-4 mt3" type="text" placeholder="click ADD to add current url or copy/past one url" required>
-        </div>
-        <div id="whenBtnAddIsClicked" style="display:none">
-            <div class="control-group">
-                <label id="labelTitle" class="pt3 txt90" for="title">Choose title</label>
-                <input id="title" name="title" class="input-1-4 mt3" type="text" placeholder="Choose one title">
+        <img src="icon48.png" alt="">
+      </header>
+
+      <form id="alert-form" class="fym-form" action="">
+        <section id="reminderDialog" class="fym-dialog" aria-label="Add a page reminder">
+          <div class="fym-field">
+            <label id="labelUrl" for="url">Choose url</label>
+            <div class="fym-url-row">
+              <input id="url" name="url" type="url" placeholder="click ADD to add current url or copy/past one url" required>
+              <button id="add" type="button" class="fym-icon-button" title="Add current page">Add</button>
             </div>
-            <div class="controls">
-                <a id="datetime" class="nohref" href="#">date & clock</a> |
-                <a id="countdown" class="nohref" href="#">countdown</a>
+          </div>
+
+          <div id="whenBtnAddIsClicked" class="fym-details" hidden>
+            <div class="fym-field">
+              <label id="labelTitle" for="title">Choose title</label>
+              <input id="title" name="title" type="text" placeholder="Choose one title" required>
             </div>
-            <div id="datetimer" class="control-group">
-                <label id="labelDateTime" class="pt3 txt90" for="date">Choose by date @ clock</label>
-                <input id="date" name="date" class="input-1-4" type="date" required>
-                <input id="time" name="time" class="input-1-8" type="time" required>
+
+            <figure id="capturePreview" class="fym-preview" hidden>
+              <img id="previewImage" alt="">
+              <figcaption id="captureStatus"></figcaption>
+            </figure>
+
+            <div id="reminderModeTabs" class="fym-tabs" role="tablist" aria-label="Reminder mode">
+              <button id="datetime" type="button" class="fym-tab is-active" aria-selected="true">date & clock</button>
+              <button id="countdown" type="button" class="fym-tab" aria-selected="false">countdown</button>
             </div>
-            <div id="counter" class="control-group" style="display:none">
-                <label id="labelDayCount" class="pt3 txt90" for="day">Choose in n days, n hours, n mins</label>
-                <input id="day" name="day" class="input-1-4" type="number" placeholder="number of day(s)" required>
-                <input id="count" name="count" class="input-1-8" type="time" required>
+
+            <div id="datetimer" class="fym-field fym-grid">
+              <label id="labelDateTime" for="date">Choose by date @ clock</label>
+              <input id="date" name="date" type="date">
+              <input id="time" name="time" type="time">
             </div>
-            <div class="controls">
-                <button id="validate" class="btn btn-empty btn-brd brd-black txt70 txtu black">Validate</button> <span id="message" class="alert alert-info"></span>
+
+            <div id="counter" class="fym-field fym-grid" hidden>
+              <label id="labelDayCount" for="day">Choose in n days, n hours, n mins</label>
+              <input id="day" name="day" type="number" min="0" placeholder="number of day(s)">
+              <input id="count" name="count" type="time" value="00:30">
             </div>
-        </div>
-        <input class="input-1-8" id="imgData" name="imgData" type="hidden">
-        <input class="input-1-8" id="lang" name="lang" type="hidden">
-        </fieldset>
-        </form>
-     </div>
-     
-    </div>
+          </div>
+
+          <input id="imgData" name="imgData" type="hidden">
+          <input id="lang" name="lang" type="hidden">
+        </section>
+
+        <footer class="fym-actions">
+          <button id="clear" type="button" class="fym-secondary">Clear</button>
+          <button id="validate" type="submit" class="fym-primary">Validate</button>
+        </footer>
+        <p id="message" class="fym-message" role="status" hidden></p>
+      </form>
+    </main>
+
     <script src="fym.js" type="text/javascript"></script>
   </body>
 </html>

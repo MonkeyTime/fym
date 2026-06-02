@@ -211,5 +211,9 @@ pip-log.txt
 #Translations
 *.mo
 
+# Chrome extension signing / local packages
+*.crx
+*.pem
+
 #Mr Developer
 .mr.developer.cfg

@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Simpan tanggal mulai layanan, rilis seri web, lelang, dan banyak hal dari Web Anda",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Pengingat ditambahkan",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Tambah",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Bersihkan",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Klik TAMBAH untuk memakai URL saat ini atau tempel satu URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Pilih berdasarkan tanggal dan waktu",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Pilih dalam hari, jam, dan menit",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "jumlah hari",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Pilih URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Validasi",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Pilih satu judul",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Pilih judul",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "tanggal & waktu",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "hitung mundur",
 		"description": ""
 	},
 	"id": {
@@ -60,27 +60,27 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Judul",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Bahasa",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Pratinjau",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Tanggal",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Hitung mundur",
 		"description": ""
 	},
 	"alarm": {
@@ -88,23 +88,63 @@
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Aksi",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Hapus",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Acara Anda",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "akan dimulai sebentar lagi (kurang dari 1 menit)",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Klik notifikasi ini untuk membuka tautan.",
+		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Beranda",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - opsi",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Tambah pengingat halaman",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Mode pengingat",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Tambah halaman saat ini",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "Tidak dapat membaca tab saat ini.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "Mengambil pratinjau halaman...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Pratinjau tidak tersedia di halaman ini.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "Pratinjau diambil",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Pilih tanggal mendatang atau hitung mundur.",
 		"description": ""
 	}
 }

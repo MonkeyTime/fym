@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Salve a data de inicio de um servico, lancamento de serie web, leiloes e muito mais a partir da sua Web",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Lembrete adicionado",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Adicionar",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Limpar",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Clique em ADICIONAR para usar a URL atual ou cole uma URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Escolher por data e hora",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Escolher em dias, horas e minutos",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "numero de dia(s)",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Escolher URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Validar",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Escolha um titulo",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Escolher titulo",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "data e hora",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "contagem regressiva",
 		"description": ""
 	},
 	"id": {
@@ -60,51 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Titulo",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Idioma",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Previa",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Data",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Contagem",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Alarme",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Acao",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Excluir",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Seu evento",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "comecara em alguns instantes (menos de 1 minuto)",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Clique nesta notificacao para abrir o link.",
+		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Inicio",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - opcoes",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Adicionar lembrete de pagina",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Modo de lembrete",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Adicionar pagina atual",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "Nao foi possivel ler a aba atual.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "Capturando previa da pagina...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Previa indisponivel nesta pagina.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "Previa capturada",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Escolha uma data futura ou uma contagem regressiva.",
 		"description": ""
 	}
 }

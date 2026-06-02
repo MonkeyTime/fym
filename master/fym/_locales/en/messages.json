@@ -16,15 +16,15 @@
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Click ADD to add the current URL or paste one URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Choose by date and time",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Choose in days, hours and minutes",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
@@ -32,7 +32,7 @@
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Choose URL",
 		"description": ""
 	},
 	"btnValidate": {
@@ -48,7 +48,7 @@
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "date & time",
 		"description": ""
 	},
 	"btnCountdown": {
@@ -64,7 +64,7 @@
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
@@ -96,15 +96,55 @@
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Your event",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "will start in a few moments (less than 1 minute)",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Click this dialog to follow the link.",
+		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Home",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - options",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Add a page reminder",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Reminder mode",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Add current page",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "Unable to read the current tab.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "Capturing page preview...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Preview unavailable on this page.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "Preview captured",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Choose a future date or countdown.",
 		"description": ""
 	}
 }

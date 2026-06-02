@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "L?u ng?y b?t ??u d?ch v?, ng?y ph?t h?nh web series, ??u gi? v? nhi?u th? kh?c t? Web c?a b?n",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "?? th?m nh?c nh?",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Th?m",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "X?a",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "B?m TH?M ?? d?ng URL hi?n t?i ho?c d?n m?t URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Ch?n theo ng?y v? gi?",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Ch?n theo ng?y, gi? v? ph?t",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "s? ng?y",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Ch?n URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "X?c nh?n",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Ch?n m?t ti?u ??",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Ch?n ti?u ??",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "ng?y v? gi?",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "??m ng??c",
 		"description": ""
 	},
 	"id": {
@@ -60,51 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Ti?u ??",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Ng?n ng?",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Xem tr??c",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Ng?y",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "??m ng??c",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "B?o th?c",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "H?nh ??ng",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "X?a",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "S? ki?n c?a b?n",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "s? b?t ??u sau ?t ph?t n?a (d??i 1 ph?t)",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "B?m th?ng b?o n?y ?? m? li?n k?t.",
+		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Trang ch?",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - t?y ch?n",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Th?m nh?c nh? trang",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Ch? ?? nh?c nh?",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Th?m trang hi?n t?i",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "Kh?ng th? ??c th? hi?n t?i.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "?ang ch?p xem tr??c trang...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Kh?ng c? xem tr??c tr?n trang n?y.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "?? ch?p xem tr??c",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Ch?n ng?y trong t??ng lai ho?c ??m ng??c.",
 		"description": ""
 	}
 }

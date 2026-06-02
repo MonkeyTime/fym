@@ -1,679 +1,474 @@
 (function() {
+  'use strict';
 
-	//var bgjs = chrome.extension.getBackgroundPage();
-	
-	var d = document;
-	
-	window.indexedDB = window.indexedDB || window.webkitIndexedDB;
-	window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction;
-	window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange;
-	
-	const DB_NAME = 'fym-db';
-	const DB_VERSION = 1;
-	const DB_STORE_NAME = 'alerts';
-	
-	var db = {};
-	
-	/**
-	  * openDb
-	  *
-	  * Open indexedDB local database
-	  *
-	  * @return void
-	  */
-	function openDb() {
-		 
-		//console.log("openDb...");
-		
-		var req = indexedDB.open(DB_NAME, DB_VERSION);
-		
-		req.onsuccess = function(evt) {
-			db = this.result;
-			//console.log("openDb DONE");
-		};
-		
-		req.onerror = function(evt) {
-			console.error("openDb:", evt.target.errorCode);
-		};
-		
-		req.onupgradeneeded = function(evt) {
-			//console.log("openDb.onupgradeneeded");
-			var store = evt.currentTarget.result.createObjectStore(
-			DB_STORE_NAME, { keyPath: 'id', autoIncrement: true });
-			store.createIndex('url', 'url', { unique: false });
-			store.createIndex('title', 'title', { unique: false });
-			store.createIndex('lang', 'lang', { unique: false });
-			store.createIndex('date', 'date', { unique: false });
-			store.createIndex('countdown', 'countdown', { unique: false });
-			store.createIndex('preview', 'preview', { unique: false });
-			store.createIndex('alarm', 'alarm', { unique: false });
-		};
-	}
-	
-	/**
-	  * closeDb
-	  *
-	  * Close indexedDB local database
-	  *
-	  * @return void
-	  */
-	function closeDb() {
-		//console.log("closeDb...");
-		indexedDB.close();
-		//console.log("closeDb DONE");
-	}
-	
-	/**
-	  * get Object Store
-	  *
-	  * @param string 	storename
-	  * @param string 	mode
-	  *
-	  * @return object 	current objectStore
-	  */
-	function getObjectStore(store_name, mode) {
-		
-		var tx = db.transaction(store_name, mode);
-		
-		return tx.objectStore(store_name);
-	}
-	
-	/**
-	  * addPublication
-	  *
-	  * add one publication in indexedDB
-	  *
-	  * @params	All the necessary params for the FYM DB_STORE_NAME "alerts"
-	  *
-	  * @return void
-	  */
-	function addPublication(url, title, lang, date, countdown, preview, alarm) {
-		
-		//console.log("addPublication arguments:", arguments);
-		
-		var obj = { url: url, title: title, lang: lang, date: date, countdown: countdown, preview: preview, alarm: alarm };
-	
-		var store = getObjectStore(DB_STORE_NAME, 'readwrite');
-		var req;
-		
-		try {
-			req = store.put(obj);
-		} catch(e) {
-		  if (e.name == 'DataCloneError')
-			//console.log("This engine doesn't know how to clone a Blob");
-			throw e;
-		}
-		
-		req.onsuccess = function(evt) {
-			//console.log("Insertion in DB successful");
-		};
-		
-		req.onerror = function() {
-			console.error("addPublication error", this.error);
-		};
-	}
-	
-	/**
-	  * renderAllPublication
-	  *
-	  * get and render all publications from indexedDB
-	  *
-	  * @return void
-	  */
-	function renderAllPublication() {
-		
-		var store = getObjectStore(DB_STORE_NAME, 'readonly');
-		var req;
-		var trs = '';
-		
-		try {
-			req = store.openCursor();
-		} catch(e) {
-			//console.log("This engine doesn't know how to openCursor");
-			throw e;
-		}
-		
-		req.onsuccess = function(evt) {
-				
-			var cursor = evt.target.result;
-			
-			if(cursor) {
-				
-				//console.log("getAllPublication cursor:", cursor);
-				
-				req = store.get(cursor.key);
-				
-				req.onsuccess = function(evt) {
-				  
-				  var value = evt.target.result;
-				  
-				  var obj = new Date(value.date);
-				  var localDate = value.date != 'undefined' ? obj.toLocaleString() : 'undefined';
-				  
-				  var obj = new Date(value.countdown);
-				  var localCountdown = value.countdown != 'undefined' ? convertMS(+value.countdown - Date.now()) : 'undefined';
-				  
-				  var obj = new Date(value.alarm);
-				  var localAlarm = obj.toLocaleString();
-				  
-				  var localImage = value.preview != 'undefined' ? '<img src="data:image/jpg;base64,'+value.preview+'">' : 'undefined';
-					
-				  trs += '\
-				  <tr id="item-'+value.id+'">\
-					<td class="id">'+value.id+'</td>\
-					<td class="title" style="max-width: 150px; overflow:hidden">'+value.title+'</td>\
-					<td class="url hidden-phone" style="max-width: 150px; overflow:hidden"><a href="'+value.url+'" title="'+value.title+'" target="new">'+value.url+'</a></td>\
-					<td class="lang">'+value.lang+'</td>\
-					<td class="preview hidden-phone">'+localImage+'</td>\
-					<td class="date">'+localDate+'</td>\
-					<td class="countdown">'+localCountdown+'</td>\
-					<td class="alarm">'+localAlarm+'</td>\
-					<td class="action"><a id="delete-'+value.id+'" class="del" href="#">'+chrome.i18n.getMessage("delete")+'</a></td>\
-				  </tr>';
-				}
-				
-				cursor.continue();
-				
-			} else {
-				//console.log("No more entries");	
-				render('items', trs);
-			}
-		}
-		
-		req.onerror = function() {
-			console.error("getAllPublication error", this.error);
-		};
-	}
+  var ALERTS_KEY = 'alerts';
+  var d = document;
 
-	/**
-	  * render
-	  *
-	  * render for html content
-	  *
-	  * @param string	id of the container
-	  * @param string	html content to render
-	  *
-	  * @return stdOut
-	  */
-	function render(htmlId, content) {
-		d.getElementById(htmlId).innerHTML = content;
-	}
-	
-	/**
-	  * deletePublication
-	  *
-	  * delete publication in indexedDB
-	  *
-	  * @param string	id of the element in DB
-	  *
-	  * @return void
-	  */
-	function deletePublication(key) {
-		
-		//console.log("deletePublication:", arguments);
+  function $(id) {
+    return d.getElementById(id);
+  }
 
-		store = getObjectStore(DB_STORE_NAME, 'readwrite');
-	
-		var req = store.delete(key);
-		
-		req.onsuccess = function(evt) {
-			//console.log("evt:", evt);
-			//console.log("evt.target:", evt.target);
-			//console.log("delete successful"); 
-		};
-			
-		req.onerror = function(evt) {
-			console.error("deletePublication:", evt.target.errorCode);
-		};
-	};
-	
-	/**
-	  * Event id "populate" - populate the table list (options page)
-	  *
-	  * @return void
-	  */
-	var populate = d.getElementById('items');
-	
-	if(populate) {
-	  		
-		var s = (new Date()).getTime(); 
-		openDb();
-		var e = (new Date()).getTime();
-		
-		setTimeout(function() {
-			renderAllPublication();
-		}, (e-s)+200);
-	}
-	 
-	/**
-	  * Add all Events click "delete" in table-list 
-	  *
-	  * @return void
-	  */ 
-	var testExist = d.getElementById('table-list');
+  function message(id, fallback) {
+    var translated = chrome.i18n.getMessage(id);
+    return translated || fallback || id;
+  }
 
-	if(testExist) {
-		
-		startAnimationTime();
-		
-		setTimeout(function() {
-			
-			var allIds = d.getElementsByTagName('a');
-			var len = allIds.length;
-			var each;
-			
-			for(var i = 0; i < len; i++) {
-				
-				(function () {
-					
-					each = allIds[i];
-					
-					if (each.id && each.id.indexOf("delete-") == 0) {
-						
-						var idInDB = each.id.split('-')[1];
-						
-						each.addEventListener('click', function(evt) {
-							
-							deletePublication(+idInDB);
-							//console.log(+idInDB);
-							d.getElementById('item-' + idInDB).setAttribute('style', 'display: none');
-							
-							evt.preventDefault();
-						});
-					}
-					
-				})();
-			}
-		}, 800);
-	}
-	
-	/**
-	  * Event click "add" url 
-	  *
-	  * @return void
-	  */
-	var btnAdd = d.getElementById('add');
-	
-	if(btnAdd) {
-		
-		btnAdd.innerHTML = chrome.i18n.getMessage("btnAdd");
-		
-		btnAdd.addEventListener('click', function() {
-			
-			chrome.tabs.query({
-				active: true, // Select active tabs
-				lastFocusedWindow: true // In the current window
-			}, function(tabsArray) {
-		
-				var 
-				tab       = tabsArray[0],
-				theLink   = tab.url,
-				theTitle  = tab.title;
-				
-				chrome.tabs.captureVisibleTab(tab.windowId, {"format":"png"}, function(thumb) {
-					d.getElementById('imgData').value = thumb != 'undefined' ? thumb : 'undefined';
-				});
-				   
-		
-				chrome.tabs.detectLanguage(tab.id, function(lang) {
-					d.getElementById('lang').value = lang ? lang : null;
-				});
-				
-				//inputs
-				d.getElementById('url').value = theLink ? theLink : null;
-				d.getElementById('title').value = theTitle ? theTitle : null;
-				
-				//display
-				d.getElementById('labelUrl').setAttribute('style', 'display: block');
-				d.getElementById('whenBtnAddIsClicked').setAttribute('style', 'display: block');
-				
-			});
-		});
-	}
-	
-	/**
-	  * Event change "url" url
-	  *
-	  * @return void
-	  */
-	var inputUrl = d.getElementById('url');
-	
-	if(inputUrl) {
-		
-		inputUrl.setAttribute('placeholder', chrome.i18n.getMessage("inputUrlPlaceholder"));
-		
-		inputUrl.addEventListener('textInput', function() {
-			
-			//display
-			d.getElementById('labelUrl').setAttribute('style', 'display: block');
-			d.getElementById('whenBtnAddIsClicked').setAttribute('style', 'display: block');
-		});
-	}
-	
-	/**
-	  * Event click "clear"
-	  *
-	  * @return void
-	  */
-	var btnClear = d.getElementById('clear');
-	
-	if(btnClear) {
-		
-		btnClear.innerHTML = chrome.i18n.getMessage("btnClear");
-		
-		btnClear.addEventListener('click', function() {
-			
-			//hidden inputs reset
-			d.getElementById('lang').value = null;
-			d.getElementById('imgData').value = null;
-			
-			//inputs reset
-			d.getElementById('url').value = null;
-			d.getElementById('title').value = null;
-			d.getElementById('date').value = null;
-			d.getElementById('time').value = null;
-			d.getElementById('day').value = null;
-			d.getElementById('count').value = null;
-			
-			//displays reset
-			d.getElementById('labelUrl').setAttribute('style', 'display: none');
-			d.getElementById('whenBtnAddIsClicked').setAttribute('style', 'display: none');	
-		});
-	}
-	
-	/**
-	  * Event click "datetime" tab
-	  *
-	  * @return void
-	  */
-	var btnDatetime = d.getElementById('datetime');
-	
-	if(btnDatetime) {
-		
-		d.getElementById('labelDateTime').innerHTML = chrome.i18n.getMessage("labelDateTime");
-		
-		btnDatetime.addEventListener('click', function() {
-			
-			d.getElementById('day').value = null;
-			d.getElementById('count').value = null;
-			d.getElementById('datetimer').setAttribute('style', 'display: block');
-			d.getElementById('counter').setAttribute('style', 'display: none');
-		});
-	}
-	
-	/**
-	  * Event click "countdown" tab
-	  *
-	  * @return void
-	  */
-	var btnCountdown = d.getElementById('countdown');
-	
-	if(btnCountdown) {
-		
-		d.getElementById('labelDayCount').innerHTML = chrome.i18n.getMessage("labelDayCount");
-		d.getElementById('day').setAttribute('placeholder', chrome.i18n.getMessage("inputPlaceholderDay"));
-		d.getElementById('count').setAttribute('placeholder', chrome.i18n.getMessage("inputPlaceholderCount"));
-		
-		btnCountdown.addEventListener('click', function() {
-			
-			d.getElementById('date').value = null;
-			d.getElementById('time').value = null;
-			d.getElementById('datetimer').setAttribute('style', 'display: none');
-			d.getElementById('counter').setAttribute('style', 'display: block');
-		});
-	}
-	
-	/**
-	  * Event click "validate"
-	  *
-	  * Add alarm and datas in indexedDB
-	  *
-	  * @return void
-	  */
-	var btnValidate = d.getElementById('validate');
-	
-	if(btnValidate) {
-		
-		d.getElementById('validate').innerHTML = chrome.i18n.getMessage("btnValidate");
-		d.getElementById('labelUrl').innerHTML = chrome.i18n.getMessage("labelUrl");
-		d.getElementById('title').setAttribute('placeholder', chrome.i18n.getMessage("inputTitle"));
-		d.getElementById('labelTitle').innerHTML = chrome.i18n.getMessage("labelTitle");
-		d.getElementById('datetime').innerHTML = chrome.i18n.getMessage("btnDatetime");
-		d.getElementById('countdown').innerHTML = chrome.i18n.getMessage("btnCountdown");
-		
-		btnValidate.addEventListener('click', function() {
-			
-			if(d.getElementById('date').value) {
-				
-				d.getElementById('message').setAttribute('style', '');
-				
-				//hidden inputs
-				var 
-				lang    = d.getElementById('lang').value,
-				imgData = d.getElementById('imgData').value,
-				
-				//inputs std
-				url   = d.getElementById('url').value,
-				title = d.getElementById('title').value,
-				date  = d.getElementById('date').value,
-				time  = d.getElementById('time').value,
-				lang  = d.getElementById('lang').value;
-				
-				//saved
-				var 
-				date = date.split('-'),
-				time = time.split(':'),
-				countdown = 'undefined',
-				alarm = new Date(date[0], date[1] - 1, date[2], time[0], time[1]),
-				alarm = alarm.toGMTString(),
-				date = alarm;
-				
-				var s = (new Date()).getTime(); 
-				openDb();
-				var e = (new Date()).getTime();
-				
-				setTimeout(function() {
-					addPublication(url, title, lang, date, countdown, imgData, alarm);
-				}, (e-s)+200);	
-				
-				translate('message', 'publicationAdded');
-				
-				setTimeout(function() {
-					d.getElementById('message').setAttribute('style', 'display:none');
-				}, 800);
-			
-			} else if(d.getElementById('day').value) {
-				
-				//hidden inputs
-				var 
-				lang    = d.getElementById('lang').value,
-				imgData = d.getElementById('imgData').value,
-				
-				//inputs std
-				url   = d.getElementById('url').value,
-				title = d.getElementById('title').value,
-				day   = d.getElementById('day').value,
-				count = d.getElementById('count').value,
-				lang  = d.getElementById('lang').value;
-				
-				//saved
-				var 
-				date = 'undefined',
-				time = count.split(':'),
-				countdown = Date.now() + (day * 24 * 60 * 60 * 1000) + (time[0] * 60 * 60 * 1000) + (time[1] * 60 * 1000),
-				alarm = new Date(countdown),
-				alarm = alarm.toGMTString();
-				
-				var s = (new Date()).getTime(); 
-				openDb();
-				var e = (new Date()).getTime();
-				
-				setTimeout(function() {
-					addPublication(url, title, lang, date, countdown, imgData, alarm);
-				}, (e-s)+200);
-				
-				translate('message', 'publicationAdded');
-				
-				setTimeout(function() {
-					var elem = d.getElementById('message');
-					elem.parentNode.removeChild(elem);
-				}, 800);
-		
-			} else {
-				//console.log('Error: No value specified');
-			}
-		});
-	}
-	
-	/**
-	  * translate
-	  *
-	  * translate it and display it
-	  *
-	  * @param string	id of the container
-	  * @param string	translation id in the i18n messages.json file
-	  *
-	  * @return stdOut
-	  */
-	function translate(htmlId, jsonId) {
-		d.getElementById(htmlId).innerHTML = chrome.i18n.getMessage(jsonId);
-	}
-	
-	/**
-	  * All <th id="i18n-*" exists ? translate it
-	  *
-	  * @return void
-	  */
-	var allThs = d.getElementsByTagName('th');
-	
-	if(allThs) {
-		
-		var len = allThs.length;
-		var each;
-		
-		for(var i = 0; i < len; i++) {
-				
-			each = allThs[i];
-			
-			if (each.id && each.id.indexOf("i18n-") == 0) {
-				
-				var jsonId = each.id.split('-')[1];
-				
-				translate(each.id, jsonId);
-			}
-		}
-	}
-	
-	/**
-	  * startAnimationTime
-	  *
-	  * Simple display time function and animate it
-	  *
-	  */
-	function startAnimationTime() {
-		
-		var today = new Date();
-		var local = new Date(today);
-		
-		d.getElementById('time').innerHTML = local;
-		
-		setTimeout(function() {
-			startAnimationTime();
-		}, 1000);
-	}
-	
-	/**
-	  * convertMS
-	  *
-	  * Simple converter microtime to countdown
-	  *
-	  * @param int	the time in microsecondes to convert
-	  *
-	  * @return string	 the formated string "x days + x hours + x mins + x secs"
-	  *
-	  */
-	function convertMS(ms) {
-		
-		var d, h, m, s;
-		s = Math.floor(ms / 1000);
-		m = Math.floor(s / 60);
-		s = s % 60;
-		h = Math.floor(m / 60);
-		m = m % 60;
-		d = Math.floor(h / 24);
-		h = h % 24;
-		
-		return ((d > 0) ? d + ' day' + (d > 1 ?  's, ' : ', ') : '') 
-			 + ((d > 0 && h >= 0 || d == 0 && h > 0) ? h + ' hour' + (h > 1 ?  's, ' : ', ') : '') 
-			 + ((h > 0 && m >= 0 || h == 0 && m > 0) ? m + ' min' + (m > 1 ?  's, ' : ', ') : '') 
-			 + ((m > 0 && s >= 0 || m == 0 && s > 0) ? s + ' sec' + (s > 1 ?  's' : '') : '');
-	};
-	
-	/**
-	  * format 
-	  *
-	  * Format the date obj
-	  *
-	  * @extend Date.prototype
-	  *
-	  * @param string	the desired format
-	  *
-	  * @return string	the formated date
-	  */
-	Date.prototype.format = function(format) {
-	  
-	  var o = {
-		"M+" : this.getMonth()+1,
-		"d+" : this.getDate(),
-		"h+" : this.getHours(),
-		"m+" : this.getMinutes(),
-		"s+" : this.getSeconds(),
-		"q+" : Math.floor((this.getMonth()+3)/3),
-		"S" : this.getMilliseconds()
-	  }
-	
-	  if(/(y+)/.test(format)) 
-		format = format.replace(RegExp.$1,(this.getFullYear()+"").substr(4 - RegExp.$1.length));
-	  
-	  for(var k in o) if(new RegExp("("+ k +")").test(format))
-		format = format.replace(RegExp.$1, RegExp.$1.length==1 ? o[k] : ("00"+ o[k]).substr((""+ o[k]).length));
-	  
-	  return format;
-	}
-	
-	/**
-	  * unixConverter
-	  *
-	  * Convert Unix to javascript usage (in milliseconds)
-	  *
-	  * @param int	 the unix time to convert
-	  *
-	  * @return string	the formated date + time
-	  */
-	function unixConverter(unix) {
-		
-		var a = new Date(unix * 1000);
-		var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-		var year = a.getFullYear();
-		var month = months[a.getMonth()];
-		var day = a.getDate();
-		var hour = a.getHours();
-		var min = a.getMinutes();
-		var sec = a.getSeconds();
-		var time =  year+'-'+month+'-'+day+' '+hour+':'+min+':'+sec;
-		
-		return time;
-	}
-	
-	/**
-	  * get Timestamp (javascript) from a date (e.g. from 2014-12-31 00:00:00)
-	  *
-	  * @return string	the timestamp in milliseconds (javascript work with milliseconds)
-	  */
-	function getTimestamp(str) {
-		
-		var d = str.match(/\d+/g);
-		
-		return +new Date(d[0], d[1] - 1, d[2], d[3], d[4], d[5]);
-	}
+  function applyLocale() {
+    var language = chrome.i18n.getUILanguage ? chrome.i18n.getUILanguage() : 'en';
+    var rtlLanguages = ['ar', 'fa', 'he', 'iw', 'ur'];
+    var baseLanguage = language.split('-')[0].split('_')[0];
+
+    d.documentElement.lang = language.replace('_', '-');
+    d.documentElement.dir = rtlLanguages.indexOf(baseLanguage) === -1 ? 'ltr' : 'rtl';
+  }
+
+  function getAlerts(callback) {
+    chrome.storage.local.get({ [ALERTS_KEY]: [] }, function(result) {
+      callback(Array.isArray(result[ALERTS_KEY]) ? result[ALERTS_KEY] : []);
+    });
+  }
+
+  function saveAlerts(alerts, callback) {
+    chrome.storage.local.set({ [ALERTS_KEY]: alerts }, callback || function() {});
+  }
+
+  function addPublication(url, title, lang, date, countdown, preview, alarm, callback) {
+    getAlerts(function(alerts) {
+      alerts.push({
+        id: Date.now().toString(36) + Math.random().toString(36).slice(2, 8),
+        url: url,
+        title: title,
+        lang: lang || '',
+        date: date || '',
+        countdown: countdown || '',
+        preview: preview || '',
+        alarm: alarm
+      });
+
+      saveAlerts(alerts, callback);
+    });
+  }
+
+  function deletePublication(id, callback) {
+    getAlerts(function(alerts) {
+      var remaining = alerts.filter(function(alert) {
+        return alert.id !== id;
+      });
+
+      saveAlerts(remaining, callback);
+    });
+  }
+
+  function renderAllPublication() {
+    var items = $('items');
+
+    if (!items) {
+      return;
+    }
+
+    getAlerts(function(alerts) {
+      items.textContent = '';
+
+      alerts
+        .slice()
+        .sort(function(a, b) {
+          return new Date(a.alarm).getTime() - new Date(b.alarm).getTime();
+        })
+        .forEach(function(alert) {
+          items.appendChild(createAlertRow(alert));
+        });
+    });
+  }
+
+  function createAlertRow(alert) {
+    var tr = d.createElement('tr');
+    tr.id = 'item-' + alert.id;
+
+    appendCell(tr, alert.id, 'id');
+    appendCell(tr, alert.title || '', 'title');
+    appendLinkCell(tr, alert.url || '', alert.title || alert.url || '');
+    appendCell(tr, alert.lang || '', 'lang');
+    appendPreviewCell(tr, alert.preview || '');
+    appendCell(tr, alert.date ? new Date(alert.date).toLocaleString() : '', 'date');
+    appendCell(tr, alert.countdown ? convertMS(Number(alert.countdown) - Date.now()) : '', 'countdown');
+    appendCell(tr, alert.alarm ? new Date(alert.alarm).toLocaleString() : '', 'alarm');
+    appendActionCell(tr, alert.id);
+
+    return tr;
+  }
+
+  function appendCell(row, value, className) {
+    var cell = d.createElement('td');
+    cell.className = className;
+    cell.textContent = value;
+    row.appendChild(cell);
+  }
+
+  function appendLinkCell(row, url, title) {
+    var cell = d.createElement('td');
+    var link = d.createElement('a');
+
+    cell.className = 'url hidden-phone';
+    link.href = url;
+    link.title = title;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = url;
+    cell.appendChild(link);
+    row.appendChild(cell);
+  }
+
+  function appendPreviewCell(row, preview) {
+    var cell = d.createElement('td');
+    cell.className = 'preview hidden-phone';
+
+    if (preview) {
+      var img = d.createElement('img');
+      img.src = preview;
+      img.alt = '';
+      img.loading = 'lazy';
+      cell.appendChild(img);
+    }
+
+    row.appendChild(cell);
+  }
+
+  function appendActionCell(row, id) {
+    var cell = d.createElement('td');
+    var button = d.createElement('button');
+
+    cell.className = 'action';
+    button.type = 'button';
+    button.className = 'fym-link-button del';
+    button.dataset.id = id;
+    button.textContent = message('delete', 'Delete');
+    cell.appendChild(button);
+    row.appendChild(cell);
+  }
+
+  function initOptionsPage() {
+    var table = $('table-list');
+    var refreshTimer = null;
+
+    if (!table) {
+      return;
+    }
+
+    applyLocale();
+    d.title = message('optionsTitle', 'Chrome: FYM - options');
+    translateTableHeaders();
+    startAnimationTime();
+    renderAllPublication();
+    bindOptionsAutoRefresh();
+
+    table.addEventListener('click', function(evt) {
+      var button = evt.target.closest('.del');
+
+      if (!button) {
+        return;
+      }
+
+      deletePublication(button.dataset.id, function() {
+        renderAllPublication();
+      });
+    });
+
+    function bindOptionsAutoRefresh() {
+      chrome.storage.onChanged.addListener(function(changes, areaName) {
+        if (areaName === 'local' && changes[ALERTS_KEY]) {
+          scheduleOptionsRefresh();
+        }
+      });
+
+      d.addEventListener('visibilitychange', function() {
+        if (!d.hidden) {
+          scheduleOptionsRefresh();
+        }
+      });
+
+      window.addEventListener('focus', scheduleOptionsRefresh);
+    }
+
+    function scheduleOptionsRefresh() {
+      clearTimeout(refreshTimer);
+      refreshTimer = setTimeout(renderAllPublication, 50);
+    }
+  }
+
+  function initPopup() {
+    var form = $('alert-form');
+
+    if (!form) {
+      return;
+    }
+
+    translatePopup();
+    setDefaultDateTime();
+
+    $('add').addEventListener('click', addCurrentPage);
+    $('clear').addEventListener('click', resetForm);
+    $('datetime').addEventListener('click', function() {
+      setMode('datetime');
+    });
+    $('countdown').addEventListener('click', function() {
+      setMode('countdown');
+    });
+    $('url').addEventListener('input', revealDetails);
+    form.addEventListener('submit', validateForm);
+  }
+
+  function translatePopup() {
+    applyLocale();
+    d.title = message('popupTitle', 'Chrome: FYM - Home');
+    $('reminderDialog').setAttribute('aria-label', message('dialogAddPageReminder', 'Add a page reminder'));
+    $('reminderModeTabs').setAttribute('aria-label', message('ariaReminderMode', 'Reminder mode'));
+    $('add').textContent = message('btnAdd', 'Add');
+    $('add').title = message('titleAddCurrentPage', 'Add current page');
+    $('clear').textContent = message('btnClear', 'Clear');
+    $('validate').textContent = message('btnValidate', 'Validate');
+    $('labelUrl').textContent = message('labelUrl', 'Choose url');
+    $('url').placeholder = message('inputUrlPlaceholder', 'Click Add to use the current page or paste a URL');
+    $('title').placeholder = message('inputTitle', 'Choose one title');
+    $('labelTitle').textContent = message('labelTitle', 'Choose title');
+    $('datetime').textContent = message('btnDatetime', 'date & clock');
+    $('countdown').textContent = message('btnCountdown', 'countdown');
+    $('labelDateTime').textContent = message('labelDateTime', 'Choose by date @ clock');
+    $('labelDayCount').textContent = message('labelDayCount', 'Choose in n days, n hours, n mins');
+    $('day').placeholder = message('inputPlaceholderDay', 'number of day(s)');
+  }
+
+  function translateTableHeaders() {
+    Array.prototype.forEach.call(d.querySelectorAll('th[id^="i18n-"]'), function(th) {
+      var id = th.id.replace('i18n-', '');
+      th.textContent = message(id, id);
+    });
+  }
+
+  function addCurrentPage() {
+    chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+      var tab = tabs && tabs[0];
+
+      if (!tab) {
+        showMessage(message('errorCurrentTab', 'Unable to read the current tab.'), true);
+        return;
+      }
+
+      $('url').value = tab.url || '';
+      $('title').value = tab.title || '';
+      revealDetails();
+
+      chrome.tabs.detectLanguage(tab.id, function(lang) {
+        $('lang').value = lang || '';
+      });
+
+      captureTab(tab.windowId);
+    });
+  }
+
+  function captureTab(windowId) {
+    setCaptureStatus(message('captureInProgress', 'Capturing page preview...'));
+
+    chrome.tabs.captureVisibleTab(windowId, { format: 'jpeg', quality: 70 }, function(dataUrl) {
+      if (chrome.runtime.lastError || !dataUrl) {
+        $('imgData').value = '';
+        setCaptureStatus(message('captureUnavailable', 'Preview unavailable on this page.'));
+        return;
+      }
+
+      resizeCapture(dataUrl, function(resizedDataUrl) {
+        $('imgData').value = resizedDataUrl;
+        showPreview(resizedDataUrl, message('captureReady', 'Preview captured'));
+      });
+    });
+  }
+
+  function resizeCapture(dataUrl, callback) {
+    var img = new Image();
+
+    img.onload = function() {
+      var maxWidth = 320;
+      var scale = Math.min(1, maxWidth / img.width);
+      var canvas = d.createElement('canvas');
+      var width = Math.max(1, Math.round(img.width * scale));
+      var height = Math.max(1, Math.round(img.height * scale));
+      var ctx;
+
+      canvas.width = width;
+      canvas.height = height;
+      ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0, width, height);
+
+      callback(canvas.toDataURL('image/jpeg', 0.72));
+    };
+
+    img.onerror = function() {
+      callback(dataUrl);
+    };
+
+    img.src = dataUrl;
+  }
+
+  function showPreview(dataUrl, status) {
+    $('previewImage').src = dataUrl;
+    $('capturePreview').hidden = false;
+    setCaptureStatus(status);
+  }
+
+  function setCaptureStatus(status) {
+    $('capturePreview').hidden = false;
+    $('captureStatus').textContent = status;
+  }
+
+  function revealDetails() {
+    $('whenBtnAddIsClicked').hidden = !$('url').value.trim();
+  }
+
+  function setMode(mode) {
+    var isDateTime = mode === 'datetime';
+
+    $('datetime').classList.toggle('is-active', isDateTime);
+    $('countdown').classList.toggle('is-active', !isDateTime);
+    $('datetime').setAttribute('aria-selected', String(isDateTime));
+    $('countdown').setAttribute('aria-selected', String(!isDateTime));
+    $('datetimer').hidden = !isDateTime;
+    $('counter').hidden = isDateTime;
+
+    if (isDateTime) {
+      $('day').value = '';
+      $('count').value = '00:30';
+    } else {
+      $('date').value = '';
+      $('time').value = '';
+    }
+  }
+
+  function validateForm(evt) {
+    var alarmDate;
+
+    evt.preventDefault();
+
+    if (!$('url').reportValidity() || !$('title').reportValidity()) {
+      revealDetails();
+      return;
+    }
+
+    alarmDate = $('datetimer').hidden ? getCountdownAlarm() : getDateTimeAlarm();
+
+    if (!alarmDate || alarmDate.getTime() <= Date.now()) {
+      showMessage(message('errorFutureReminder', 'Choose a future date or countdown.'), true);
+      return;
+    }
+
+    addPublication(
+      $('url').value.trim(),
+      $('title').value.trim(),
+      $('lang').value.trim(),
+      $('datetimer').hidden ? '' : alarmDate.toISOString(),
+      $('datetimer').hidden ? String(alarmDate.getTime()) : '',
+      $('imgData').value,
+      alarmDate.toISOString(),
+      function() {
+        showMessage(message('publicationAdded', 'Publication added'), false);
+        setTimeout(resetForm, 700);
+      }
+    );
+  }
+
+  function getDateTimeAlarm() {
+    var date = $('date').value;
+    var time = $('time').value;
+
+    if (!date || !time) {
+      return null;
+    }
+
+    return new Date(date + 'T' + time);
+  }
+
+  function getCountdownAlarm() {
+    var day = Number($('day').value || 0);
+    var count = $('count').value || '00:00';
+    var time = count.split(':');
+    var hours = Number(time[0] || 0);
+    var minutes = Number(time[1] || 0);
+    var milliseconds = (day * 24 * 60 * 60 * 1000) +
+      (hours * 60 * 60 * 1000) +
+      (minutes * 60 * 1000);
+
+    if (!Number.isFinite(milliseconds) || milliseconds <= 0) {
+      return null;
+    }
+
+    return new Date(Date.now() + milliseconds);
+  }
+
+  function resetForm() {
+    $('alert-form').reset();
+    $('imgData').value = '';
+    $('lang').value = '';
+    $('previewImage').removeAttribute('src');
+    $('capturePreview').hidden = true;
+    $('message').hidden = true;
+    $('whenBtnAddIsClicked').hidden = true;
+    setMode('datetime');
+    setDefaultDateTime();
+  }
+
+  function setDefaultDateTime() {
+    var now = new Date(Date.now() + 30 * 60 * 1000);
+    $('date').value = now.toISOString().slice(0, 10);
+    $('time').value = pad(now.getHours()) + ':' + pad(now.getMinutes());
+    $('day').value = '0';
+    $('count').value = '00:30';
+  }
+
+  function showMessage(text, isError) {
+    $('message').textContent = text;
+    $('message').classList.toggle('is-error', Boolean(isError));
+    $('message').hidden = false;
+  }
+
+  function startAnimationTime() {
+    var time = $('time');
+
+    if (!time) {
+      return;
+    }
+
+    time.textContent = new Date().toLocaleString();
+    setTimeout(startAnimationTime, 1000);
+  }
+
+  function convertMS(ms) {
+    var dValue;
+    var hValue;
+    var mValue;
+    var sValue;
+
+    if (!Number.isFinite(ms) || ms <= 0) {
+      return '';
+    }
+
+    sValue = Math.floor(ms / 1000);
+    mValue = Math.floor(sValue / 60);
+    sValue = sValue % 60;
+    hValue = Math.floor(mValue / 60);
+    mValue = mValue % 60;
+    dValue = Math.floor(hValue / 24);
+    hValue = hValue % 24;
+
+    return [
+      dValue ? dValue + ' day' + (dValue > 1 ? 's' : '') : '',
+      hValue ? hValue + ' hour' + (hValue > 1 ? 's' : '') : '',
+      mValue ? mValue + ' min' + (mValue > 1 ? 's' : '') : '',
+      sValue ? sValue + ' sec' + (sValue > 1 ? 's' : '') : ''
+    ].filter(Boolean).join(', ');
+  }
+
+  function pad(value) {
+    return String(value).padStart(2, '0');
+  }
+
+  initPopup();
+  initOptionsPage();
 })();

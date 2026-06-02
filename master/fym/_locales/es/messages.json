@@ -1,10 +1,10 @@
 {
 	"extDesc": {
-		"message": "Guardar la fecha de inicio de un servicio, la fecha de lanzamiento de una serie web, subastas y muchas cosas de tu Web",
+		"message": "Guarda la fecha de inicio de un servicio, el estreno de una serie web, subastas y mucho mas desde tu Web",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Recordatorio agregado",
 		"description": ""
 	},
 	"btnAdd": {
@@ -12,55 +12,47 @@
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Claro",
+		"message": "Limpiar",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "clic Agregar para url corriente o copiar/pasado 1 url",
+		"message": "Haz clic en AGREGAR para usar la URL actual o pega una URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Elija por fecha @ reloj",
+		"message": "Elegir por fecha y hora",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "En Seleccione x dias, x hora, x mins",
+		"message": "Elegir en dias, horas y minutos",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "número de días",
-		"description": ""
-	},
-	"inputPlaceholderCount": {
-		"message": "reloj",
-		"description": ""
-	},
-	"btnValidate": {
-		"message": "validar",
+		"message": "numero de dia(s)",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Elija url",
+		"message": "Elegir URL",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "Validar",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "validar",
-		"description": ""
-	},
-	"inputTitle": {
-		"message": "Elija un título",
+		"message": "Elegir un titulo",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Elija título",
+		"message": "Elegir titulo",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "fecha & hora",
+		"message": "fecha y hora",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "cuenta atrás",
+		"message": "cuenta regresiva",
 		"description": ""
 	},
 	"id": {
@@ -68,11 +60,11 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Título",
+		"message": "Titulo",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
@@ -80,7 +72,7 @@
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Vista previa",
 		"description": ""
 	},
 	"date": {
@@ -88,7 +80,7 @@
 		"description": ""
 	},
 	"countdown": {
-		"message": "Atrás",
+		"message": "Cuenta regresiva",
 		"description": ""
 	},
 	"alarm": {
@@ -96,27 +88,63 @@
 		"description": ""
 	},
 	"action": {
-		"message": "Acción",
+		"message": "Accion",
 		"description": ""
 	},
 	"delete": {
-		"message": "Suprimir",
+		"message": "Eliminar",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Su evento",
+		"message": "Tu evento",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "se comenzará en pocos segundos (menos de 1 minuto)",
-		"description": ""
-	},
-	"btnEvent": {
-		"message": "Ir al evento",
+		"message": "comenzara en unos momentos (menos de 1 minuto)",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click dialog box para seguir los enlaces",
+		"message": "Haz clic en esta notificacion para abrir el enlace.",
+		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Inicio",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - opciones",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Agregar recordatorio de pagina",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Modo de recordatorio",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Agregar pagina actual",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "No se puede leer la pestana actual.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "Capturando vista previa de la pagina...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Vista previa no disponible en esta pagina.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "Vista previa capturada",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Elige una fecha futura o una cuenta regresiva.",
 		"description": ""
 	}
 }

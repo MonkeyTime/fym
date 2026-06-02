@@ -106,5 +106,45 @@
 	"infoEvent": {
 		"message": "Click this dialog to follow links.",
 		"description": ""
+	},
+	"popupTitle": {
+		"message": "Chrome: FYM - Home",
+		"description": ""
+	},
+	"optionsTitle": {
+		"message": "Chrome: FYM - options",
+		"description": ""
+	},
+	"dialogAddPageReminder": {
+		"message": "Add a page reminder",
+		"description": ""
+	},
+	"ariaReminderMode": {
+		"message": "Reminder mode",
+		"description": ""
+	},
+	"titleAddCurrentPage": {
+		"message": "Add current page",
+		"description": ""
+	},
+	"errorCurrentTab": {
+		"message": "Unable to read the current tab.",
+		"description": ""
+	},
+	"captureInProgress": {
+		"message": "Capturing page preview...",
+		"description": ""
+	},
+	"captureUnavailable": {
+		"message": "Preview unavailable on this page.",
+		"description": ""
+	},
+	"captureReady": {
+		"message": "Preview captured",
+		"description": ""
+	},
+	"errorFutureReminder": {
+		"message": "Choose a future date or countdown.",
+		"description": ""
 	}
 }
