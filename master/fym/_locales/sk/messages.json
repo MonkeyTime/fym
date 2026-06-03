@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Uložte si webovú stránku a získajte na ňu pripomienku neskôr.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Pripomenutie bolo pridané",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Pridať",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Jasné",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Kliknite na Pridať, ak chcete použiť aktuálnu URL alebo prilepiť jednu URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Vyberte si podľa dátumu a času",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Vyberte si v dňoch, hodinách a minútach",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "počet dní",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Vyberte URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Uložiť",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Vyberte jeden titul",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Vyberte názov",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "dátum a čas",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "odpočítavanie",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Názov",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Jazyk",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Ukážka",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Dátum",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Odpočítavanie",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Pripomenutie",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Akcia",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Odstrániť",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Vaša udalosť",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "začne o niekoľko okamihov, menej ako jednu minútu",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Kliknutím na toto upozornenie otvoríte odkaz.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM – Home",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - možnosti",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Pridajte pripomienku stránky",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Režim pripomenutia",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Pridať aktuálnu stránku",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Nedá sa prečítať aktuálna karta.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Zachytáva sa ukážka stránky...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Ukážka na tejto stránke nie je k dispozícii.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Zachytená ukážka",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Vyberte budúci dátum alebo odpočítavanie.",
 		"description": ""
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"extDesc": {
-		"message": "Simpan tanggal mulai layanan, rilis seri web, lelang, dan banyak hal dari Web Anda",
+		"message": "Simpan halaman web dan terima pengingatnya nanti.",
 		"description": ""
 	},
 	"publicationAdded": {
@@ -8,15 +8,15 @@
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Tambah",
+		"message": "Menambahkan",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Bersihkan",
+		"message": "Jernih",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Klik TAMBAH untuk memakai URL saat ini atau tempel satu URL",
+		"message": "Klik Tambahkan untuk menggunakan URL saat ini atau tempelkan satu URL",
 		"description": ""
 	},
 	"labelDateTime": {
@@ -24,7 +24,7 @@
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Pilih dalam hari, jam, dan menit",
+		"message": "Pilih dalam hari, jam dan menit",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
@@ -36,7 +36,7 @@
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validasi",
+		"message": "Menyimpan",
 		"description": ""
 	},
 	"inputTitle": {
@@ -48,7 +48,7 @@
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "tanggal & waktu",
+		"message": "tanggal dan waktu",
 		"description": ""
 	},
 	"btnCountdown": {
@@ -84,15 +84,15 @@
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Pengingat",
 		"description": ""
 	},
 	"action": {
-		"message": "Aksi",
+		"message": "Tindakan",
 		"description": ""
 	},
 	"delete": {
-		"message": "Hapus",
+		"message": "Menghapus",
 		"description": ""
 	},
 	"yourEvent": {
@@ -100,11 +100,11 @@
 		"description": ""
 	},
 	"startEvent": {
-		"message": "akan dimulai sebentar lagi (kurang dari 1 menit)",
+		"message": "akan dimulai dalam beberapa saat, kurang dari satu menit",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Klik notifikasi ini untuk membuka tautan.",
+		"message": "Klik pemberitahuan ini untuk membuka tautan.",
 		"description": ""
 	},
 	"popupTitle": {
@@ -116,15 +116,15 @@
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Tambah pengingat halaman",
+		"message": "Tambahkan pengingat halaman",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Mode pengingat",
+		"message": "Modus pengingat",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Tambah halaman saat ini",
+		"message": "Tambahkan halaman saat ini",
 		"description": ""
 	},
 	"errorCurrentTab": {
@@ -144,7 +144,7 @@
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Pilih tanggal mendatang atau hitung mundur.",
+		"message": "Pilih tanggal atau hitung mundur yang akan datang.",
 		"description": ""
 	}
 }

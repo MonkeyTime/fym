@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "አንድ ድረ-ገጽ ያስቀምጡ እና ለእሱ አስታዋሽ በኋላ ይቀበሉ።",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "አስታዋሽ ታክሏል።",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "አክል",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "ግልጽ",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "የአሁኑን ዩአርኤል ለመጠቀም አክል የሚለውን ጠቅ ያድርጉ ወይም አንድ URL ለጥፍ",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "በቀን እና በሰዓቱ ይምረጡ",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "በቀናት ፣ በሰአታት እና በደቂቃ ውስጥ ይምረጡ",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "የቀናት ብዛት",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "URL ይምረጡ",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "አስቀምጥ",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "አንድ ርዕስ ይምረጡ",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "ርዕስ ይምረጡ",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "ቀን እና ሰዓት",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "ቆጠራ",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "ርዕስ",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "ቋንቋ",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "ቅድመ እይታ",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "ቀን",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "ቆጠራ",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "አስታዋሽ",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "ድርጊት",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "ሰርዝ",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "የእርስዎ ክስተት",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "በጥቂት ደቂቃዎች ውስጥ ከአንድ ደቂቃ ባነሰ ጊዜ ውስጥ ይጀምራል",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "ሊንኩን ለመክፈት ይህን ማስታወቂያ ጠቅ ያድርጉ።",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome፡ FYM - መነሻ",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome፡ FYM - አማራጮች",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "የገጽ አስታዋሽ ያክሉ",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "የማስታወሻ ሁነታ",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "የአሁኑን ገጽ ያክሉ",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "የአሁኑን ትር ማንበብ አልተቻለም።",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "የገጽ ቅድመ እይታን በማንሳት ላይ...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "ቅድመ እይታ በዚህ ገጽ ላይ አይገኝም።",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "ቅድመ እይታ ተቀርጿል።",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "የወደፊት ቀን ወይም ቆጠራ ይምረጡ።",
 		"description": ""
 	}
 }

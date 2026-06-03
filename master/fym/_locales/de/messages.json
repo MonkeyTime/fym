@@ -1,30 +1,30 @@
 {
 	"extDesc": {
-		"message": "Speichere Startdaten von Diensten, Webserien, Auktionen und vielem mehr aus deinem Web",
+		"message": "Speichern Sie eine Webseite und erhalten Sie später eine Erinnerung dafür.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Erinnerung hinzugefuegt",
+		"message": "Erinnerung hinzugefügt",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Hinzufuegen",
+		"message": "Hinzufügen",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Leeren",
+		"message": "Klar",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Klicke auf HINZUFUEGEN fuer die aktuelle URL oder fuege eine URL ein",
+		"message": "Klicken Sie auf „Hinzufügen“, um die aktuelle URL zu verwenden oder eine URL einzufügen",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Nach Datum und Uhrzeit waehlen",
+		"message": "Wählen Sie nach Datum und Uhrzeit",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Nach Tagen, Stunden und Minuten waehlen",
+		"message": "Wählen Sie Tage, Stunden und Minuten",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
@@ -32,23 +32,23 @@
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "URL waehlen",
+		"message": "Wählen Sie URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Bestaetigen",
+		"message": "Speichern",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Titel waehlen",
+		"message": "Wählen Sie einen Titel",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Titel waehlen",
+		"message": "Titel wählen",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "Datum & Uhrzeit",
+		"message": "Datum und Uhrzeit",
 		"description": ""
 	},
 	"btnCountdown": {
@@ -84,7 +84,7 @@
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Erinnerung",
 		"description": ""
 	},
 	"action": {
@@ -92,31 +92,31 @@
 		"description": ""
 	},
 	"delete": {
-		"message": "Loeschen",
+		"message": "Löschen",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Dein Ereignis",
+		"message": "Ihre Veranstaltung",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "beginnt in wenigen Momenten (weniger als 1 Minute)",
+		"message": "wird in wenigen Augenblicken beginnen, weniger als einer Minute",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Klicke auf diese Benachrichtigung, um den Link zu oeffnen.",
+		"message": "Klicken Sie auf diese Benachrichtigung, um den Link zu öffnen.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Start",
+		"message": "Chrome: FYM – Zuhause",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - Optionen",
+		"message": "Chrome: FYM – Optionen",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Seitenerinnerung hinzufuegen",
+		"message": "Fügen Sie eine Seitenerinnerung hinzu",
 		"description": ""
 	},
 	"ariaReminderMode": {
@@ -124,11 +124,11 @@
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Aktuelle Seite hinzufuegen",
+		"message": "Aktuelle Seite hinzufügen",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Der aktuelle Tab konnte nicht gelesen werden.",
+		"message": "Die aktuelle Registerkarte kann nicht gelesen werden.",
 		"description": ""
 	},
 	"captureInProgress": {
@@ -136,15 +136,15 @@
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Vorschau auf dieser Seite nicht verfuegbar.",
+		"message": "Vorschau auf dieser Seite nicht verfügbar.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Vorschau erfasst",
+		"message": "Vorschau aufgenommen",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Waehle ein zukuenftiges Datum oder einen Countdown.",
+		"message": "Wählen Sie ein zukünftiges Datum oder einen Countdown.",
 		"description": ""
 	}
 }

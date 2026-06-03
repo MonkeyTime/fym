@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "บันทึกหน้าเว็บและรับการแจ้งเตือนในภายหลัง",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "เพิ่มการแจ้งเตือนแล้ว",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "เพิ่ม",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "ชัดเจน",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "คลิกเพิ่มเพื่อใช้ URL ปัจจุบันหรือวาง URL หนึ่งรายการ",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "เลือกตามวันและเวลา",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "เลือกเป็นวัน ชั่วโมง และนาที",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "จำนวนวัน",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "เลือก URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "บันทึก",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "เลือกหนึ่งชื่อ",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "เลือกชื่อ",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "วันที่และเวลา",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "นับถอยหลัง",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "ชื่อ",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "ภาษา",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "ดูตัวอย่าง",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "วันที่",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "นับถอยหลัง",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "คำเตือน",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "การกระทำ",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "ลบ",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "กิจกรรมของคุณ",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "จะเริ่มในอีกสักครู่ ไม่ถึงหนึ่งนาที",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "คลิกการแจ้งเตือนนี้เพื่อเปิดลิงก์",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - หน้าแรก",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - ตัวเลือก",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "เพิ่มการแจ้งเตือนหน้า",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "โหมดเตือนความจำ",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "เพิ่มหน้าปัจจุบัน",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "ไม่สามารถอ่านแท็บปัจจุบันได้",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "กำลังจับภาพตัวอย่างหน้า...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "ดูตัวอย่างไม่พร้อมใช้งานบนหน้านี้",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "ดูตัวอย่างที่ถ่ายแล้ว",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "เลือกวันที่ในอนาคตหรือการนับถอยหลัง",
 		"description": ""
 	}
 }

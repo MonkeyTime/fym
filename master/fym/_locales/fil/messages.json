@@ -1,54 +1,54 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Mag-save ng web page at makatanggap ng paalala para dito sa ibang pagkakataon.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Idinagdag ang paalala",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Idagdag",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Maaliwalas",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "I-click ang Idagdag upang gamitin ang kasalukuyang URL o i-paste ang isang URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Pumili ayon sa petsa at oras",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Pumili sa mga araw, oras at minuto",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "bilang ng mga araw",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Pumili ng URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "I-save",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Pumili ng isang pamagat",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Pumili ng pamagat",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "petsa at oras",
 		"description": ""
 	},
 	"btnCountdown": {
@@ -60,23 +60,23 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Pamagat",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Wika",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Silipin",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Petsa",
 		"description": ""
 	},
 	"countdown": {
@@ -84,67 +84,67 @@
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Paalala",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Aksyon",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Tanggalin",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Ang iyong kaganapan",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "magsisimula sa ilang sandali, wala pang isang minuto",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "I-click ang notification na ito para buksan ang link.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Tahanan",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - mga opsyon",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Magdagdag ng paalala sa pahina",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Mode ng paalala",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Magdagdag ng kasalukuyang pahina",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Hindi mabasa ang kasalukuyang tab.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Kinukuha ang preview ng page...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Hindi available ang preview sa page na ito.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Nakuha ang preview",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Pumili ng petsa o countdown sa hinaharap.",
 		"description": ""
 	}
 }

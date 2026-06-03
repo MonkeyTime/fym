@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "વેબ પેજ સાચવો અને તેના માટે પછીથી રીમાઇન્ડર મેળવો.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "રીમાઇન્ડર ઉમેર્યું",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "ઉમેરો",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "સાફ કરો",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "વર્તમાન URL નો ઉપયોગ કરવા અથવા એક URL પેસ્ટ કરવા માટે ઉમેરો પર ક્લિક કરો",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "તારીખ અને સમય દ્વારા પસંદ કરો",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "દિવસો, કલાકો અને મિનિટોમાં પસંદ કરો",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "દિવસોની સંખ્યા",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "URL પસંદ કરો",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "સાચવો",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "એક શીર્ષક પસંદ કરો",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "શીર્ષક પસંદ કરો",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "તારીખ અને સમય",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "કાઉન્ટડાઉન",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "શીર્ષક",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "ભાષા",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "પૂર્વાવલોકન",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "તારીખ",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "કાઉન્ટડાઉન",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "રીમાઇન્ડર",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "ક્રિયા",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "કાઢી નાખો",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "તમારી ઘટના",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "થોડી ક્ષણોમાં શરૂ થશે, એક મિનિટ કરતાં પણ ઓછા સમયમાં",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "લિંક ખોલવા માટે આ સૂચના પર ક્લિક કરો.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "ક્રોમ: FYM - ઘર",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "ક્રોમ: FYM - વિકલ્પો",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "પૃષ્ઠ રીમાઇન્ડર ઉમેરો",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "રીમાઇન્ડર મોડ",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "વર્તમાન પૃષ્ઠ ઉમેરો",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "વર્તમાન ટેબ વાંચવામાં અસમર્થ.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "પૃષ્ઠ પૂર્વાવલોકન કૅપ્ચર કરી રહ્યાં છીએ...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "આ પૃષ્ઠ પર પૂર્વાવલોકન અનુપલબ્ધ છે.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "પૂર્વાવલોકન મેળવ્યું",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "ભાવિ તારીખ અથવા કાઉન્ટડાઉન પસંદ કરો.",
 		"description": ""
 	}
 }

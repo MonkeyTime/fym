@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Запазете уеб страница и получете напомняне за нея по-късно.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Добавено напомняне",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Добавете",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "ясно",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Щракнете върху Добавяне, за да използвате текущия URL или да поставите един URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Изберете по дата и час",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Изберете дни, часове и минути",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "брой дни",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Изберете URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Запазване",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Изберете едно заглавие",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Изберете заглавие",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "дата и час",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "обратно броене",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Заглавие",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "език",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Преглед",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Дата",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Обратно броене",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Напомняне",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Действие",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Изтриване",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Вашето събитие",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "ще започне след няколко минути, по-малко от една минута",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Щракнете върху това известие, за да отворите връзката.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Начало",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - опции",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Добавяне на напомняне за страница",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Режим на напомняне",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Добавяне на текуща страница",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Не може да се прочете текущия раздел.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Преглед на страницата се заснема...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Визуализацията не е налична на тази страница.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Визуализацията е заснета",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Изберете бъдеща дата или обратно броене.",
 		"description": ""
 	}
 }

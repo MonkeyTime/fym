@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Tallenna verkkosivu ja vastaanota siitä muistutus myöhemmin.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Muistutus lisätty",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Lisätä",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Selkeä",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Napsauta Lisää, jos haluat käyttää nykyistä URL-osoitetta tai liittää yhden URL-osoitteen",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Valitse päivämäärän ja ajan mukaan",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Valitse päivinä, tunteina ja minuutteina",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "päivien lukumäärä",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Valitse URL-osoite",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Tallentaa",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Valitse yksi otsikko",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Valitse otsikko",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "päivämäärä ja aika",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "lähtölaskenta",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Otsikko",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Kieli",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Esikatselu",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Päivämäärä",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Lähtölaskenta",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Muistutus",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Toiminta",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Poistaa",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Sinun tapahtumasi",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "alkaa hetken, alle minuutin kuluttua",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Napsauta tätä ilmoitusta avataksesi linkin.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Etusivu",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - vaihtoehdot",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Lisää sivumuistutus",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Muistutustila",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Lisää nykyinen sivu",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Nykyistä välilehteä ei voi lukea.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Tallennetaan sivun esikatselua...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Esikatselu ei ole käytettävissä tällä sivulla.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Esikatselu tallennettu",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Valitse tuleva päivämäärä tai lähtölaskenta.",
 		"description": ""
 	}
 }

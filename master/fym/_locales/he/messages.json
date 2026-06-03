@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "שמור דף אינטרנט וקבל תזכורת עבורו מאוחר יותר.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "נוספה תזכורת",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "לְהוֹסִיף",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "בָּרוּר",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "לחץ על הוסף כדי להשתמש בכתובת האתר הנוכחית או הדבק כתובת אתר אחת",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "בחר לפי תאריך ושעה",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "בחר בימים, שעות ודקות",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "מספר ימים",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "בחר כתובת אתר",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "לְהַצִיל",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "בחר כותרת אחת",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "בחר כותרת",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "תאריך ושעה",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "סְפִירָה לְאָחוֹר",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "כּוֹתֶרֶת",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "שָׂפָה",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "תצוגה מקדימה",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "תַאֲרִיך",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "סְפִירָה לְאָחוֹר",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "תִזכּוֹרֶת",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "פְּעוּלָה",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "לִמְחוֹק",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "האירוע שלך",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "יתחיל בעוד מספר רגעים, פחות מדקה אחת",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "לחץ על הודעה זו כדי לפתוח את הקישור.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - בית",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - אפשרויות",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "הוסף תזכורת לדף",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "מצב תזכורת",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "הוסף עמוד נוכחי",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "לא ניתן לקרוא את הכרטיסייה הנוכחית.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "לוכד תצוגה מקדימה של דף...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "תצוגה מקדימה אינה זמינה בדף זה.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "תצוגה מקדימה נלכדה",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "בחר תאריך עתידי או ספירה לאחור.",
 		"description": ""
 	}
 }

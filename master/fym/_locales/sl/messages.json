@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Shranite spletno stran in prejmite opomnik zanjo pozneje.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Opomnik dodan",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Dodaj",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "jasno",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Kliknite Dodaj, če želite uporabiti trenutni URL ali prilepiti en URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Izberite po datumu in uri",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Izberite dneve, ure in minute",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "število dni",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Izberite URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Shrani",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Izberite en naslov",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Izberite naslov",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "datum in čas",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "odštevanje",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Naslov",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Jezik",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Predogled",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Datum",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Odštevanje",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Opomnik",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Akcija",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Izbriši",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Vaš dogodek",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "se bo začel čez nekaj trenutkov, manj kot eno minuto",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Kliknite to obvestilo, da odprete povezavo.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM – Domov",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - možnosti",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Dodajte opomnik strani",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Način opomnika",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Dodaj trenutno stran",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Trenutnega zavihka ni mogoče prebrati.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Zajem predogleda strani ...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Predogled na tej strani ni na voljo.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Predogled posnet",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Izberite prihodnji datum ali odštevanje.",
 		"description": ""
 	}
 }

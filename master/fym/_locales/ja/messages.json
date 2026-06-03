@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "????????Web??????????????????????Web???????",
+		"message": "Web ページを保存すると、後でリマインダーを受け取ります。",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "?????????????",
+		"message": "リマインダーを追加しました",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "??",
+		"message": "追加",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "???",
+		"message": "クリア",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "???URL??????????????????URL??????????",
+		"message": "「追加」をクリックして現在の URL を使用するか、URL を 1 つ貼り付けます",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "????????",
+		"message": "日付と時間で選ぶ",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "?????????",
+		"message": "日、時間、分で選択します",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "??",
+		"message": "日数",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "URL???",
+		"message": "URLを選択してください",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "??",
+		"message": "保存",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "???????",
+		"message": "タイトルを 1 つ選択してください",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "???????",
+		"message": "タイトルを選択してください",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "?????",
+		"message": "日時",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "???????",
+		"message": "カウントダウン",
 		"description": ""
 	},
 	"id": {
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"title": {
-		"message": "????",
+		"message": "タイトル",
 		"description": ""
 	},
 	"url": {
@@ -68,83 +68,83 @@
 		"description": ""
 	},
 	"lang": {
-		"message": "??",
+		"message": "言語",
 		"description": ""
 	},
 	"preview": {
-		"message": "?????",
+		"message": "プレビュー",
 		"description": ""
 	},
 	"date": {
-		"message": "??",
+		"message": "日付",
 		"description": ""
 	},
 	"countdown": {
-		"message": "???????",
+		"message": "カウントダウン",
 		"description": ""
 	},
 	"alarm": {
-		"message": "????",
+		"message": "リマインダー",
 		"description": ""
 	},
 	"action": {
-		"message": "??",
+		"message": "アクション",
 		"description": ""
 	},
 	"delete": {
-		"message": "??",
+		"message": "消去",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "????????",
+		"message": "あなたのイベント",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "??????????1????",
+		"message": "数秒以内、1 分以内に開始します",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "????????????????????????",
+		"message": "この通知をクリックしてリンクを開きます。",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - ???",
+		"message": "Chrome：FYM - ホーム",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - ?????",
+		"message": "Chrome：FYM - オプション",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "????????????",
+		"message": "ページリマインダーを追加する",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "?????????",
+		"message": "リマインダーモード",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "?????????",
+		"message": "現在のページを追加",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "??????????????",
+		"message": "現在のタブを読み取ることができません。",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "???????????????...",
+		"message": "ページのプレビューをキャプチャしています...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "?????????????????????",
+		"message": "このページではプレビューを利用できません。",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "???????????????",
+		"message": "キャプチャされたプレビュー",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "?????????????????????????",
+		"message": "将来の日付またはカウントダウンを選択します。",
 		"description": ""
 	}
 }

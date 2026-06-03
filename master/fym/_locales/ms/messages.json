@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Simpan halaman web dan terima peringatan untuknya kemudian.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Peringatan ditambah",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Tambah",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Jelas",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Klik Tambah untuk menggunakan URL semasa atau tampal satu URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Pilih mengikut tarikh dan masa",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Pilih dalam hari, jam dan minit",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "bilangan hari",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Pilih URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Jimat",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Pilih satu tajuk",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Pilih tajuk",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "tarikh dan masa",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "kira detik",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Tajuk",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Bahasa",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Pratonton",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "tarikh",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "undur",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Peringatan",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Tindakan",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Padam",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Acara anda",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "akan bermula dalam beberapa saat, kurang daripada satu minit",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Klik pemberitahuan ini untuk membuka pautan.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Rumah",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - pilihan",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Tambahkan peringatan halaman",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Mod peringatan",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Tambah halaman semasa",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Tidak dapat membaca tab semasa.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Menangkap pratonton halaman...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Pratonton tidak tersedia pada halaman ini.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Pratonton ditangkap",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Pilih tarikh atau kira detik masa hadapan.",
 		"description": ""
 	}
 }

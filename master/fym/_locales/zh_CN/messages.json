@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "????????????????????????????",
+		"message": "保存网页并稍后收到提醒。",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "?????",
+		"message": "已添加提醒",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "??",
+		"message": "添加",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "??",
+		"message": "清除",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "????????????????????",
+		"message": "单击“添加”以使用当前 URL 或粘贴一个 URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "????????",
+		"message": "按日期和时间选择",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "??????????",
+		"message": "选择天、小时和分钟",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "??",
+		"message": "天数",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "????",
+		"message": "选择网址",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "??",
+		"message": "节省",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "????",
+		"message": "选择一个标题",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "????",
+		"message": "选择标题",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "?????",
+		"message": "日期和时间",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "???",
+		"message": "倒计时",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "??",
+		"message": "标题",
 		"description": ""
 	},
 	"url": {
-		"message": "??",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "??",
+		"message": "语言",
 		"description": ""
 	},
 	"preview": {
-		"message": "??",
+		"message": "预览",
 		"description": ""
 	},
 	"date": {
-		"message": "??",
+		"message": "日期",
 		"description": ""
 	},
 	"countdown": {
-		"message": "???",
+		"message": "倒计时",
 		"description": ""
 	},
 	"alarm": {
-		"message": "??",
+		"message": "提醒",
 		"description": ""
 	},
 	"action": {
-		"message": "??",
+		"message": "行动",
 		"description": ""
 	},
 	"delete": {
-		"message": "??",
+		"message": "删除",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "????",
+		"message": "您的活动",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "??????? 1 ???",
+		"message": "稍后将开始，不到一分钟",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "??????????",
+		"message": "单击此通知可打开链接。",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - ??",
+		"message": "Chrome：FYM - 主页",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - ??",
+		"message": "Chrome：FYM - 选项",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "??????",
+		"message": "添加页面提醒",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "????",
+		"message": "提醒模式",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "??????",
+		"message": "添加当前页面",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "??????????",
+		"message": "无法读取当前选项卡。",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "????????...",
+		"message": "正在捕获页面预览...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "??????????",
+		"message": "此页面无法预览。",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "?????",
+		"message": "预览捕获的内容",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "?????????????",
+		"message": "选择未来的日期或倒计时。",
 		"description": ""
 	}
 }

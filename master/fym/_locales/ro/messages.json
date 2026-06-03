@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Salvați o pagină web și primiți un memento pentru aceasta mai târziu.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Memento adăugat",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Adăuga",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Clar",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Faceți clic pe Adăugați pentru a utiliza adresa URL curentă sau pentru a lipi o adresă URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Alegeți după dată și oră",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Alegeți în zile, ore și minute",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "număr de zile",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Alegeți adresa URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Salva",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Alege un titlu",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Alege titlul",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "data si ora",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "numărătoarea inversă",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Titlu",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Limbă",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Previzualizare",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Data",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Numărătoare inversă",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Memento",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Acţiune",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Şterge",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Evenimentul dvs",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "va începe în câteva momente, mai puțin de un minut",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Faceți clic pe această notificare pentru a deschide linkul.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Acasă",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - opțiuni",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Adăugați un memento de pagină",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Modul memento",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Adăugați pagina curentă",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Nu se poate citi fila curentă.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Se captează previzualizarea paginii...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Previzualizare indisponibilă pe această pagină.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Previzualizare capturată",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Alegeți o dată viitoare sau o numărătoare inversă.",
 		"description": ""
 	}
 }

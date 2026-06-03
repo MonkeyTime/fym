@@ -1,50 +1,50 @@
 {
 	"extDesc": {
-		"message": "Bir hizmetin ba?lang?? tarihini, web dizisi yay?n?n?, a??k art?rmalar? ve daha fazlas?n? Webinizden kaydedin",
+		"message": "Bir web sayfasını kaydedin ve daha sonra bunun için bir hatırlatıcı alın.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Hat?rlat?c? eklendi",
+		"message": "Hatırlatıcı eklendi",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Ekle",
+		"message": "Eklemek",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Temizle",
+		"message": "Temizlemek",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Ge?erli URLyi eklemek i?in EKLEye t?klay?n veya bir URL yap??t?r?n",
+		"message": "Geçerli URL'yi kullanmak veya bir URL yapıştırmak için Ekle'yi tıklayın",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Tarih ve saate g?re se?",
+		"message": "Tarihe ve saate göre seçin",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "G?n, saat ve dakika olarak se?",
+		"message": "Gün, saat ve dakika cinsinden seçim yapın",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "g?n say?s?",
+		"message": "gün sayısı",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "URL se?",
+		"message": "URL'yi seçin",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Do?rula",
+		"message": "Kaydetmek",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Bir ba?l?k se?",
+		"message": "Bir başlık seçin",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Ba?l?k se?",
+		"message": "Başlık seçin",
 		"description": ""
 	},
 	"btnDatetime": {
@@ -52,7 +52,7 @@
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "geri say?m",
+		"message": "geri sayım",
 		"description": ""
 	},
 	"id": {
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Ba?l?k",
+		"message": "Başlık",
 		"description": ""
 	},
 	"url": {
@@ -72,7 +72,7 @@
 		"description": ""
 	},
 	"preview": {
-		"message": "?nizleme",
+		"message": "Önizleme",
 		"description": ""
 	},
 	"date": {
@@ -80,71 +80,71 @@
 		"description": ""
 	},
 	"countdown": {
-		"message": "Geri say?m",
+		"message": "Geri sayım",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Hatırlatma",
 		"description": ""
 	},
 	"action": {
-		"message": "??lem",
+		"message": "Aksiyon",
 		"description": ""
 	},
 	"delete": {
-		"message": "Sil",
+		"message": "Silmek",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Etkinli?iniz",
+		"message": "Etkinliğiniz",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "birka? dakika i?inde ba?layacak (1 dakikadan az)",
+		"message": "birkaç dakika içinde başlayacak, bir dakikadan az",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Ba?lant?y? a?mak i?in bu bildirime t?klay?n.",
+		"message": "Bağlantıyı açmak için bu bildirime tıklayın.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Ana sayfa",
+		"message": "Chrome: MYM - Ana Sayfa",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - se?enekler",
+		"message": "Chrome: MYM - seçenekler",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Sayfa hat?rlat?c?s? ekle",
+		"message": "Sayfa hatırlatıcısı ekleyin",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Hat?rlat?c? modu",
+		"message": "Hatırlatma modu",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Ge?erli sayfay? ekle",
+		"message": "Geçerli sayfayı ekle",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Ge?erli sekme okunamad?.",
+		"message": "Geçerli sekme okunamıyor.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Sayfa ?nizlemesi yakalan?yor...",
+		"message": "Sayfa önizlemesi alınıyor...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Bu sayfada ?nizleme kullan?lam?yor.",
+		"message": "Bu sayfada önizleme kullanılamıyor.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "?nizleme yakaland?",
+		"message": "Yakalanan önizleme",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Gelecek bir tarih veya geri say?m se?in.",
+		"message": "Gelecekteki bir tarihi veya geri sayımı seçin.",
 		"description": ""
 	}
 }

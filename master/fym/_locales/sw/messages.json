@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Hifadhi ukurasa wa wavuti na upokee ukumbusho wake baadaye.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Kikumbusho kimeongezwa",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Ongeza",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Wazi",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Bofya Ongeza ili kutumia URL ya sasa au ubandike URL moja",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Chagua kwa tarehe na wakati",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Chagua kwa siku, saa na dakika",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "idadi ya siku",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Chagua URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Hifadhi",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Chagua kichwa kimoja",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Chagua kichwa",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "tarehe na wakati",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "kuhesabu",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Kichwa",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Lugha",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Hakiki",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Tarehe",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Muda uliosalia",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Kikumbusho",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Kitendo",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Futa",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Tukio lako",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "itaanza baada ya muda mfupi, chini ya dakika moja",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Bofya arifa hii ili kufungua kiungo.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Nyumbani",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - chaguzi",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Ongeza kikumbusho cha ukurasa",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Hali ya ukumbusho",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Ongeza ukurasa wa sasa",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Imeshindwa kusoma kichupo cha sasa.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Inanasa onyesho la kukagua ukurasa...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Hakiki haipatikani kwenye ukurasa huu.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Onyesho la kukagua limenaswa",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Chagua tarehe ya baadaye au siku iliyosalia.",
 		"description": ""
 	}
 }

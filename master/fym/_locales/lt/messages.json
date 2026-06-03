@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Išsaugokite tinklalapį ir vėliau gaukite priminimą.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Priminimas pridėtas",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Pridėti",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Aišku",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Spustelėkite Pridėti, jei norite naudoti dabartinį URL arba įklijuoti vieną URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Pasirinkite pagal datą ir laiką",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Pasirinkite dienas, valandas ir minutes",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "dienų skaičius",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Pasirinkite URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Išsaugoti",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Pasirinkite vieną pavadinimą",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Pasirinkite pavadinimą",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "data ir laikas",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "atgalinis skaičiavimas",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Pavadinimas",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Kalba",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Peržiūra",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Data",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Atgalinis skaičiavimas",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Priminimas",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Veiksmas",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Ištrinti",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Jūsų renginys",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "prasidės po kelių akimirkų, mažiau nei vienos minutės",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Spustelėkite šį pranešimą, kad atidarytumėte nuorodą.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM – Pagrindinis",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM – parinktys",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Pridėkite puslapio priminimą",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Priminimo režimas",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Pridėti dabartinį puslapį",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Nepavyko nuskaityti dabartinio skirtuko.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Užfiksuojama puslapio peržiūra...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Šiame puslapyje peržiūra negalima.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Peržiūra užfiksuota",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Pasirinkite būsimą datą arba atgalinį skaičiavimą.",
 		"description": ""
 	}
 }

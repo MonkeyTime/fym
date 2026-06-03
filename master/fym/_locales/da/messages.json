@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Gem en webside og modtag en påmindelse om den senere.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Påmindelse tilføjet",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Tilføje",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Klar",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Klik på Tilføj for at bruge den aktuelle URL eller indsætte en URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Vælg efter dato og klokkeslæt",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Vælg i dage, timer og minutter",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "antal dage",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Vælg URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Spare",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Vælg én titel",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Vælg titel",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "dato og klokkeslæt",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "nedtælling",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Titel",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Sprog",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Forhåndsvisning",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Dato",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Nedtælling",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Påmindelse",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Handling",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Slet",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Dit arrangement",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "starter om få øjeblikke, mindre end et minut",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Klik på denne meddelelse for at åbne linket.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Hjem",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Krom: FYM - muligheder",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Tilføj en sidepåmindelse",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Påmindelsestilstand",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Tilføj aktuel side",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Kan ikke læse den aktuelle fane.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Optager sideeksempel...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Forhåndsvisning er ikke tilgængelig på denne side.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Forhåndsvisning er taget",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Vælg en fremtidig dato eller nedtælling.",
 		"description": ""
 	}
 }

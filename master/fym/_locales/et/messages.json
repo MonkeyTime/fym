@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Salvestage veebileht ja saate selle kohta hiljem meeldetuletuse.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Meeldetuletus lisatud",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Lisa",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Selge",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Praeguse URL-i kasutamiseks või ühe URL-i kleepimiseks klõpsake nuppu Lisa",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Valige kuupäeva ja kellaaja järgi",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Valige päevade, tundide ja minutite järgi",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "päevade arv",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Valige URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Salvesta",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Valige üks pealkiri",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Valige pealkiri",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "kuupäev ja kellaaeg",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "tagasiarvestus",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Pealkiri",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Keel",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Eelvaade",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Kuupäev",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Pöördloendus",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Meeldetuletus",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Tegevus",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Kustuta",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Teie sündmus",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "käivitub mõne hetke pärast, vähem kui ühe minuti pärast",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Lingi avamiseks klõpsake sellel teatisel.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM – avaleht",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM – valikud",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Lisage lehe meeldetuletus",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Meeldetuletusrežiim",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Lisa praegune leht",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Praegust vahekaarti ei saa lugeda.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Lehe eelvaate jäädvustamine...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Eelvaade pole sellel lehel saadaval.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Jäädvustatud eelvaade",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Valige tulevane kuupäev või loendur.",
 		"description": ""
 	}
 }

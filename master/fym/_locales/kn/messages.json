@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "ವೆಬ್ ಪುಟವನ್ನು ಉಳಿಸಿ ಮತ್ತು ಅದರ ನಂತರ ಜ್ಞಾಪನೆಯನ್ನು ಸ್ವೀಕರಿಸಿ.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "ಜ್ಞಾಪನೆ ಸೇರಿಸಲಾಗಿದೆ",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "ಸೇರಿಸಿ",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "ತೆರವುಗೊಳಿಸಿ",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "ಪ್ರಸ್ತುತ URL ಅನ್ನು ಬಳಸಲು ಸೇರಿಸಿ ಅಥವಾ ಒಂದು URL ಅನ್ನು ಅಂಟಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "ದಿನಾಂಕ ಮತ್ತು ಸಮಯದ ಮೂಲಕ ಆಯ್ಕೆಮಾಡಿ",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "ದಿನಗಳು, ಗಂಟೆಗಳು ಮತ್ತು ನಿಮಿಷಗಳಲ್ಲಿ ಆಯ್ಕೆಮಾಡಿ",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "ದಿನಗಳ ಸಂಖ್ಯೆ",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "URL ಆಯ್ಕೆಮಾಡಿ",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "ಉಳಿಸಿ",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "ಒಂದು ಶೀರ್ಷಿಕೆಯನ್ನು ಆರಿಸಿ",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "ಶೀರ್ಷಿಕೆಯನ್ನು ಆರಿಸಿ",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "ದಿನಾಂಕ ಮತ್ತು ಸಮಯ",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "ಕೌಂಟ್ಡೌನ್",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "ಶೀರ್ಷಿಕೆ",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "ಭಾಷೆ",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "ಪೂರ್ವವೀಕ್ಷಣೆ",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "ದಿನಾಂಕ",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "ಕೌಂಟ್ಡೌನ್",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "ಜ್ಞಾಪನೆ",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "ಕ್ರಿಯೆ",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "ಅಳಿಸಿ",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "ನಿಮ್ಮ ಈವೆಂಟ್",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "ಕೆಲವೇ ಕ್ಷಣಗಳಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ, ಒಂದು ನಿಮಿಷಕ್ಕಿಂತ ಕಡಿಮೆ",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "ಲಿಂಕ್ ತೆರೆಯಲು ಈ ಅಧಿಸೂಚನೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - ಮುಖಪುಟ",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - ಆಯ್ಕೆಗಳು",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "ಪುಟ ಜ್ಞಾಪನೆಯನ್ನು ಸೇರಿಸಿ",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "ಜ್ಞಾಪನೆ ಮೋಡ್",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "ಪ್ರಸ್ತುತ ಪುಟವನ್ನು ಸೇರಿಸಿ",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "ಪ್ರಸ್ತುತ ಟ್ಯಾಬ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "ಪುಟದ ಪೂರ್ವವೀಕ್ಷಣೆಯನ್ನು ಸೆರೆಹಿಡಿಯಲಾಗುತ್ತಿದೆ...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "ಈ ಪುಟದಲ್ಲಿ ಪೂರ್ವವೀಕ್ಷಣೆ ಲಭ್ಯವಿಲ್ಲ.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "ಪೂರ್ವವೀಕ್ಷಣೆ ಸೆರೆಹಿಡಿಯಲಾಗಿದೆ",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "ಭವಿಷ್ಯದ ದಿನಾಂಕ ಅಥವಾ ಕೌಂಟ್‌ಡೌನ್ ಆಯ್ಕೆಮಾಡಿ.",
 		"description": ""
 	}
 }

@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Deseu una pàgina web i rebeu un recordatori més tard.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "S'ha afegit un recordatori",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Afegeix",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Clar",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Feu clic a Afegeix per utilitzar l'URL actual o enganxeu-ne un",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Trieu per data i hora",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Trieu en dies, hores i minuts",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "nombre de dies",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Trieu l'URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Desa",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Trieu un títol",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Trieu el títol",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "data i hora",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "compte enrere",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Títol",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Llengua",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Vista prèvia",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Data",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Compte enrere",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Recordatori",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Acció",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Suprimeix",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "El teu esdeveniment",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "començarà en uns instants, menys d'un minut",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Feu clic a aquesta notificació per obrir l'enllaç.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Inici",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - opcions",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Afegeix un recordatori de pàgina",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Mode de recordatori",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Afegeix la pàgina actual",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "No es pot llegir la pestanya actual.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "S'està capturant la vista prèvia de la pàgina...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "La vista prèvia no està disponible en aquesta pàgina.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Vista prèvia capturada",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Trieu una data futura o un compte enrere.",
 		"description": ""
 	}
 }

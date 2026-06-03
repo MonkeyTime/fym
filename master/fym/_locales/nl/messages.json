@@ -1,50 +1,46 @@
 {
 	"extDesc": {
-		"message": "Bevrijd je geest en noteer de startdatum van een dienst, de release datum van een web-serie, veilingen en vele dingen van JE Web",
+		"message": "Sla een webpagina op en ontvang er later een herinnering voor.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Herinnering toegevoegd",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "toevoegen",
+		"message": "Toevoegen",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "vrij",
+		"message": "Duidelijk",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Klik op Toevoegen url of te kopiëren/langs een url",
+		"message": "Klik op Toevoegen om de huidige URL te gebruiken of plak één URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Kies op datum @ klok",
+		"message": "Kies op datum en tijd",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Kies in x dagen, x uur, x mins",
+		"message": "Kies in dagen, uren en minuten",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "aantal dag(en)",
-		"description": ""
-	},
-	"inputPlaceholderCount": {
-		"message": "klok",
-		"description": ""
-	},
-	"btnValidate": {
-		"message": "bevestigen",
+		"message": "aantal dagen",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Kies url",
+		"message": "Kies URL",
+		"description": ""
+	},
+	"btnValidate": {
+		"message": "Redden",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Kies een titel",
+		"message": "Kies één titel",
 		"description": ""
 	},
 	"labelTitle": {
@@ -52,11 +48,11 @@
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "datum & klok",
+		"message": "datum en tijd",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "aftellen",
 		"description": ""
 	},
 	"id": {
@@ -68,7 +64,7 @@
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
@@ -76,7 +72,7 @@
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Voorbeeld",
 		"description": ""
 	},
 	"date": {
@@ -84,11 +80,11 @@
 		"description": ""
 	},
 	"countdown": {
-		"message": "Aftelprocedure",
+		"message": "Aftellen",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Herinnering",
 		"description": ""
 	},
 	"action": {
@@ -96,63 +92,59 @@
 		"description": ""
 	},
 	"delete": {
-		"message": "Verwijder",
+		"message": "Verwijderen",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Uw evenement",
+		"message": "Jouw evenement",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "zal starten in een paar seconden (minder dan 1 minuut)",
-		"description": ""
-	},
-	"btnEvent": {
-		"message": "Ga naar evenement",
+		"message": "zal binnen enkele ogenblikken starten, minder dan een minuut",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click dialog box om te volgen links",
+		"message": "Klik op deze melding om de link te openen.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chroom: FYM - Thuis",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chroom: FYM - opties",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Voeg een paginaherinnering toe",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Herinneringsmodus",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Voeg huidige pagina toe",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Kan het huidige tabblad niet lezen.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Paginavoorbeeld vastleggen...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Voorbeeld niet beschikbaar op deze pagina.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Voorbeeld vastgelegd",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Kies een toekomstige datum of aftelling.",
 		"description": ""
 	}
 }

@@ -1,10 +1,10 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Save a web page and receive a reminder for it later.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Reminder added",
 		"description": ""
 	},
 	"btnAdd": {
@@ -16,7 +16,7 @@
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Click ADD to add the current URL or paste one URL",
+		"message": "Click Add to use the current URL or paste one URL",
 		"description": ""
 	},
 	"labelDateTime": {
@@ -28,7 +28,7 @@
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "number of days",
 		"description": ""
 	},
 	"labelUrl": {
@@ -36,7 +36,7 @@
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Save",
 		"description": ""
 	},
 	"inputTitle": {
@@ -48,7 +48,7 @@
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & time",
+		"message": "date and time",
 		"description": ""
 	},
 	"btnCountdown": {
@@ -68,7 +68,7 @@
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Language",
 		"description": ""
 	},
 	"preview": {
@@ -84,7 +84,7 @@
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Reminder",
 		"description": ""
 	},
 	"action": {
@@ -100,11 +100,11 @@
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less than 1 minute)",
+		"message": "will start in a few moments, less than one minute",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow the link.",
+		"message": "Click this notification to open the link.",
 		"description": ""
 	},
 	"popupTitle": {

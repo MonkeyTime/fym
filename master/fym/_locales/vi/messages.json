@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "L?u ng?y b?t ??u d?ch v?, ng?y ph?t h?nh web series, ??u gi? v? nhi?u th? kh?c t? Web c?a b?n",
+		"message": "Lưu một trang web và nhận được lời nhắc về nó sau.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "?? th?m nh?c nh?",
+		"message": "Đã thêm lời nhắc",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Th?m",
+		"message": "Thêm vào",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "X?a",
+		"message": "Thông thoáng",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "B?m TH?M ?? d?ng URL hi?n t?i ho?c d?n m?t URL",
+		"message": "Nhấp vào Thêm để sử dụng URL hiện tại hoặc dán một URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Ch?n theo ng?y v? gi?",
+		"message": "Chọn theo ngày và giờ",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Ch?n theo ng?y, gi? v? ph?t",
+		"message": "Chọn theo ngày, giờ và phút",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "s? ng?y",
+		"message": "số ngày",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Ch?n URL",
+		"message": "Chọn URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "X?c nh?n",
+		"message": "Cứu",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Ch?n m?t ti?u ??",
+		"message": "Chọn một tiêu đề",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Ch?n ti?u ??",
+		"message": "Chọn tiêu đề",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "ng?y v? gi?",
+		"message": "ngày và giờ",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "??m ng??c",
+		"message": "đếm ngược",
 		"description": ""
 	},
 	"id": {
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Ti?u ??",
+		"message": "Tiêu đề",
 		"description": ""
 	},
 	"url": {
@@ -68,83 +68,83 @@
 		"description": ""
 	},
 	"lang": {
-		"message": "Ng?n ng?",
+		"message": "Ngôn ngữ",
 		"description": ""
 	},
 	"preview": {
-		"message": "Xem tr??c",
+		"message": "Xem trước",
 		"description": ""
 	},
 	"date": {
-		"message": "Ng?y",
+		"message": "Ngày",
 		"description": ""
 	},
 	"countdown": {
-		"message": "??m ng??c",
+		"message": "Đếm ngược",
 		"description": ""
 	},
 	"alarm": {
-		"message": "B?o th?c",
+		"message": "Lời nhắc nhở",
 		"description": ""
 	},
 	"action": {
-		"message": "H?nh ??ng",
+		"message": "Hoạt động",
 		"description": ""
 	},
 	"delete": {
-		"message": "X?a",
+		"message": "Xóa bỏ",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "S? ki?n c?a b?n",
+		"message": "Sự kiện của bạn",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "s? b?t ??u sau ?t ph?t n?a (d??i 1 ph?t)",
+		"message": "sẽ bắt đầu sau giây lát, chưa đầy một phút",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "B?m th?ng b?o n?y ?? m? li?n k?t.",
+		"message": "Nhấp vào thông báo này để mở liên kết.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Trang ch?",
+		"message": "Chrome: FYM - Trang chủ",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - t?y ch?n",
+		"message": "Chrome: FYM - tùy chọn",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Th?m nh?c nh? trang",
+		"message": "Thêm lời nhắc trang",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Ch? ?? nh?c nh?",
+		"message": "Chế độ nhắc nhở",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Th?m trang hi?n t?i",
+		"message": "Thêm trang hiện tại",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Kh?ng th? ??c th? hi?n t?i.",
+		"message": "Không thể đọc tab hiện tại.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "?ang ch?p xem tr??c trang...",
+		"message": "Đang chụp bản xem trước trang...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Kh?ng c? xem tr??c tr?n trang n?y.",
+		"message": "Xem trước không có sẵn trên trang này.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "?? ch?p xem tr??c",
+		"message": "Đã chụp bản xem trước",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Ch?n ng?y trong t??ng lai ho?c ??m ng??c.",
+		"message": "Chọn một ngày trong tương lai hoặc đếm ngược.",
 		"description": ""
 	}
 }

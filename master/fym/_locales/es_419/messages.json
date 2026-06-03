@@ -1,6 +1,6 @@
 {
 	"extDesc": {
-		"message": "Guarda la fecha de inicio de un servicio, el estreno de una serie web, subastas y mucho mas desde tu Web",
+		"message": "Guarde una página web y reciba un recordatorio más tarde.",
 		"description": ""
 	},
 	"publicationAdded": {
@@ -12,39 +12,39 @@
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Limpiar",
+		"message": "Claro",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Haz clic en AGREGAR para usar la URL actual o pega una URL",
+		"message": "Haga clic en Agregar para usar la URL actual o pegue una URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Elegir por fecha y hora",
+		"message": "Elige por fecha y hora",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Elegir en dias, horas y minutos",
+		"message": "Elige en días, horas y minutos",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "numero de dia(s)",
+		"message": "numero de dias",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Elegir URL",
+		"message": "Elija la URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validar",
+		"message": "Ahorrar",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Elegir un titulo",
+		"message": "Elige un título",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Elegir titulo",
+		"message": "Elige título",
 		"description": ""
 	},
 	"btnDatetime": {
@@ -52,7 +52,7 @@
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "cuenta regresiva",
+		"message": "cuenta atrás",
 		"description": ""
 	},
 	"id": {
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Titulo",
+		"message": "Título",
 		"description": ""
 	},
 	"url": {
@@ -72,7 +72,7 @@
 		"description": ""
 	},
 	"preview": {
-		"message": "Vista previa",
+		"message": "Avance",
 		"description": ""
 	},
 	"date": {
@@ -80,31 +80,31 @@
 		"description": ""
 	},
 	"countdown": {
-		"message": "Cuenta regresiva",
+		"message": "Cuenta atrás",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarma",
+		"message": "Recordatorio",
 		"description": ""
 	},
 	"action": {
-		"message": "Accion",
+		"message": "Acción",
 		"description": ""
 	},
 	"delete": {
-		"message": "Eliminar",
+		"message": "Borrar",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Tu evento",
+		"message": "tu evento",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "comenzara en unos momentos (menos de 1 minuto)",
+		"message": "comenzará en unos momentos, menos de un minuto",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Haz clic en esta notificacion para abrir el enlace.",
+		"message": "Haga clic en esta notificación para abrir el enlace.",
 		"description": ""
 	},
 	"popupTitle": {
@@ -116,27 +116,27 @@
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Agregar recordatorio de pagina",
+		"message": "Agregar un recordatorio de página",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Modo de recordatorio",
+		"message": "Modo recordatorio",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Agregar pagina actual",
+		"message": "Agregar página actual",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "No se puede leer la pestana actual.",
+		"message": "No se puede leer la pestaña actual.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturando vista previa de la pagina...",
+		"message": "Capturando vista previa de la página...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Vista previa no disponible en esta pagina.",
+		"message": "Vista previa no disponible en esta página.",
 		"description": ""
 	},
 	"captureReady": {
@@ -144,7 +144,7 @@
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Elige una fecha futura o una cuenta regresiva.",
+		"message": "Elija una fecha futura o una cuenta regresiva.",
 		"description": ""
 	}
 }

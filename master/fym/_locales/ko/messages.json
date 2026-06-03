@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "??? ???, ? ??? ???, ?? ? ??? ??? ??? ?????",
+		"message": "웹페이지를 저장하고 나중에 이에 대한 알림을 받으세요.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "??? ???????",
+		"message": "알림이 추가됨",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "??",
+		"message": "추가하다",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "???",
+		"message": "분명한",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "?? URL? ????? ??? ????? URL? ??????",
+		"message": "현재 URL을 사용하거나 URL 하나를 붙여넣으려면 추가를 클릭하세요.",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "??? ???? ??",
+		"message": "날짜와 시간으로 선택하세요",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "?, ??, ??? ??",
+		"message": "일, 시간, 분 단위로 선택하세요.",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "? ?",
+		"message": "일수",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "URL ??",
+		"message": "URL을 선택하세요",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "??",
+		"message": "구하다",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "?? ??",
+		"message": "제목 하나를 선택하세요",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "?? ??",
+		"message": "제목을 선택하세요",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "??? ??",
+		"message": "날짜와 시간",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "?????",
+		"message": "카운트다운",
 		"description": ""
 	},
 	"id": {
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"title": {
-		"message": "??",
+		"message": "제목",
 		"description": ""
 	},
 	"url": {
@@ -68,83 +68,83 @@
 		"description": ""
 	},
 	"lang": {
-		"message": "??",
+		"message": "언어",
 		"description": ""
 	},
 	"preview": {
-		"message": "????",
+		"message": "시사",
 		"description": ""
 	},
 	"date": {
-		"message": "??",
+		"message": "날짜",
 		"description": ""
 	},
 	"countdown": {
-		"message": "?????",
+		"message": "카운트다운",
 		"description": ""
 	},
 	"alarm": {
-		"message": "??",
+		"message": "알림",
 		"description": ""
 	},
 	"action": {
-		"message": "??",
+		"message": "행동",
 		"description": ""
 	},
 	"delete": {
-		"message": "??",
+		"message": "삭제",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "? ???",
+		"message": "귀하의 이벤트",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "?? ? ?????(1? ??)",
+		"message": "잠시 후, 1분 이내에 시작됩니다.",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "??? ??? ? ??? ?????.",
+		"message": "링크를 열려면 이 알림을 클릭하세요.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - ?",
+		"message": "Chrome: FYM - 홈",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - ??",
+		"message": "크롬: FYM - 옵션",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "??? ?? ??",
+		"message": "페이지 알림 추가",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "?? ??",
+		"message": "알림 모드",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "?? ??? ??",
+		"message": "현재 페이지 추가",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "?? ?? ?? ? ????.",
+		"message": "현재 탭을 읽을 수 없습니다.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "??? ????? ???? ?...",
+		"message": "페이지 미리보기 캡처 중...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "? ?????? ????? ??? ? ????.",
+		"message": "이 페이지에서는 미리보기를 사용할 수 없습니다.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "???? ???",
+		"message": "미리보기가 캡처되었습니다.",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "?? ?? ?? ?????? ?????.",
+		"message": "미래 날짜나 카운트다운을 선택하세요.",
 		"description": ""
 	}
 }

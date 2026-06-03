@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Αποθηκεύστε μια ιστοσελίδα και λάβετε μια υπενθύμιση αργότερα.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Η υπενθύμιση προστέθηκε",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Προσθέτω",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Σαφής",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Κάντε κλικ στην Προσθήκη για να χρησιμοποιήσετε την τρέχουσα διεύθυνση URL ή επικολλήστε μία διεύθυνση URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Επιλέξτε κατά ημερομηνία και ώρα",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Επιλέξτε σε ημέρες, ώρες και λεπτά",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "αριθμός ημερών",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Επιλέξτε URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Εκτός",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Επιλέξτε έναν τίτλο",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Επιλέξτε τίτλο",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "ημερομηνία και ώρα",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "αντίστροφη μέτρηση",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Τίτλος",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Γλώσσα",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Πρεμιέρα",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Ημερομηνία",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Αντίστροφη μέτρηση",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Υπενθύμιση",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Δράση",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Διαγράφω",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Η εκδήλωσή σας",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "θα ξεκινήσει σε λίγα λεπτά, λιγότερο από ένα λεπτό",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Κάντε κλικ σε αυτήν την ειδοποίηση για να ανοίξετε τον σύνδεσμο.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Αρχική σελίδα",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - επιλογές",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Προσθέστε μια υπενθύμιση σελίδας",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Λειτουργία υπενθύμισης",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Προσθήκη τρέχουσας σελίδας",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Δεν είναι δυνατή η ανάγνωση της τρέχουσας καρτέλας.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Λήψη προεπισκόπησης σελίδας...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Η προεπισκόπηση δεν είναι διαθέσιμη σε αυτήν τη σελίδα.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Η προεπισκόπηση καταγράφηκε",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Επιλέξτε μια μελλοντική ημερομηνία ή αντίστροφη μέτρηση.",
 		"description": ""
 	}
 }

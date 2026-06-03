@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Збережіть веб-сторінку та отримайте нагадування про неї пізніше.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Нагадування додано",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "додати",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "ясно",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Натисніть «Додати», щоб використати поточну URL-адресу або вставити одну URL-адресу",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Виберіть за датою та часом",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Виберіть дні, години та хвилини",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "кількість днів",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Виберіть URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "зберегти",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Виберіть один заголовок",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Виберіть назву",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "дата і час",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "зворотний відлік",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Назва",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Мова",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Попередній перегляд",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Дата",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Зворотний відлік",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Нагадування",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Дія",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Видалити",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Ваша подія",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "почнеться через кілька секунд, менше ніж за одну хвилину",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Натисніть це сповіщення, щоб відкрити посилання.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM – Головна",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - опції",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Додайте нагадування про сторінку",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Режим нагадування",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Додати поточну сторінку",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Неможливо прочитати поточну вкладку.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Запис попереднього перегляду сторінки...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Попередній перегляд на цій сторінці недоступний.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Попередній перегляд зроблено",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Виберіть майбутню дату або зворотний відлік.",
 		"description": ""
 	}
 }

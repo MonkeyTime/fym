@@ -1,10 +1,10 @@
 {
 	"extDesc": {
-		"message": "Enregistrez la date de debut d'un service, la sortie d'une serie web, une enchere et bien plus depuis votre Web",
+		"message": "Enregistrez une page Web et recevez un rappel plus tard.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication ajoutee",
+		"message": "Rappel ajouté",
 		"description": ""
 	},
 	"btnAdd": {
@@ -12,35 +12,35 @@
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Effacer",
+		"message": "Clair",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Cliquez sur AJOUTER pour utiliser l'URL courante ou collez une URL",
+		"message": "Cliquez sur Ajouter pour utiliser l'URL actuelle ou collez une URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choisir par date et heure",
+		"message": "Choisissez par date et heure",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choisir dans x jours, heures et minutes",
+		"message": "Choisissez en jours, heures et minutes",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "nombre de jour(s)",
+		"message": "nombre de jours",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choisir l'URL",
+		"message": "Choisissez l'URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Valider",
+		"message": "Sauvegarder",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choisir un titre",
+		"message": "Choisissez un titre",
 		"description": ""
 	},
 	"labelTitle": {
@@ -52,7 +52,7 @@
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "compte a rebours",
+		"message": "compte à rebours",
 		"description": ""
 	},
 	"id": {
@@ -72,7 +72,7 @@
 		"description": ""
 	},
 	"preview": {
-		"message": "Apercu",
+		"message": "Aperçu",
 		"description": ""
 	},
 	"date": {
@@ -80,11 +80,11 @@
 		"description": ""
 	},
 	"countdown": {
-		"message": "Rebours",
+		"message": "Compte à rebours",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarme",
+		"message": "Rappel",
 		"description": ""
 	},
 	"action": {
@@ -96,23 +96,23 @@
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Votre evenement",
+		"message": "Votre événement",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "demarrera dans quelques instants (moins d'1 minute)",
+		"message": "va commencer dans quelques instants, moins d'une minute",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Cliquez sur cette notification pour suivre le lien.",
+		"message": "Cliquez sur cette notification pour ouvrir le lien.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Accueil",
+		"message": "Chrome : FYM - Accueil",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome : FYM - options",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
@@ -120,31 +120,31 @@
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Mode de rappel",
+		"message": "Mode rappel",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Ajouter la page courante",
+		"message": "Ajouter la page actuelle",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Impossible de lire l'onglet courant.",
+		"message": "Impossible de lire l'onglet actuel.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capture de l'apercu de la page...",
+		"message": "Capture de l'aperçu de la page...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Apercu indisponible sur cette page.",
+		"message": "Aperçu indisponible sur cette page.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Apercu capture",
+		"message": "Aperçu capturé",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choisissez une date ou un compte a rebours futur.",
+		"message": "Choisissez une date future ou un compte à rebours.",
 		"description": ""
 	}
 }

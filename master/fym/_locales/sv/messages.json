@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Spara en webbsida och få en påminnelse om den senare.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Påminnelse tillagd",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Tillägga",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Rensa",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Klicka på Lägg till för att använda den aktuella webbadressen eller klistra in en URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Välj efter datum och tid",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Välj i dagar, timmar och minuter",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "antal dagar",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Välj URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Spara",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Välj en titel",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Välj titel",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "datum och tid",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "nedräkning",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Titel",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Språk",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Förhandsvisning",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Datum",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Nedräkning",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Påminnelse",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Handling",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Radera",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Ditt evenemang",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "startar om några ögonblick, mindre än en minut",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Klicka på det här meddelandet för att öppna länken.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - Hem",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - alternativ",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Lägg till en sidpåminnelse",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Påminnelseläge",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Lägg till aktuell sida",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Det går inte att läsa den aktuella fliken.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Fångar förhandsgranskning av sidan...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Förhandsgranskning är inte tillgänglig på den här sidan.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Förhandsvisning fångad",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Välj ett framtida datum eller nedräkning.",
 		"description": ""
 	}
 }

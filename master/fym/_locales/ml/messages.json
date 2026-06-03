@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "ഒരു വെബ് പേജ് സംരക്ഷിച്ച് പിന്നീട് അതിനായി ഒരു റിമൈൻഡർ സ്വീകരിക്കുക.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "ഓർമ്മപ്പെടുത്തൽ ചേർത്തു",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "ചേർക്കുക",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "ക്ലിയർ",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "നിലവിലെ URL ഉപയോഗിക്കാനോ ഒരു URL ഒട്ടിക്കാനോ ചേർക്കുക ക്ലിക്ക് ചെയ്യുക",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "തീയതിയും സമയവും അനുസരിച്ച് തിരഞ്ഞെടുക്കുക",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "ദിവസങ്ങളിലും മണിക്കൂറിലും മിനിറ്റിലും തിരഞ്ഞെടുക്കുക",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "ദിവസങ്ങളുടെ എണ്ണം",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "URL തിരഞ്ഞെടുക്കുക",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "സംരക്ഷിക്കുക",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "ഒരു ശീർഷകം തിരഞ്ഞെടുക്കുക",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "ശീർഷകം തിരഞ്ഞെടുക്കുക",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "തീയതിയും സമയവും",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "കൗണ്ട്ഡൗൺ",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "തലക്കെട്ട്",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "ഭാഷ",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "പ്രിവ്യൂ",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "തീയതി",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "കൗണ്ട്ഡൗൺ",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "ഓർമ്മപ്പെടുത്തൽ",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "ആക്ഷൻ",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "ഇല്ലാതാക്കുക",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "നിങ്ങളുടെ ഇവൻ്റ്",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "കുറച്ച് നിമിഷങ്ങൾക്കുള്ളിൽ ആരംഭിക്കും, ഒരു മിനിറ്റിൽ താഴെ",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "ലിങ്ക് തുറക്കാൻ ഈ അറിയിപ്പ് ക്ലിക്ക് ചെയ്യുക.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - ഹോം",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - ഓപ്ഷനുകൾ",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "ഒരു പേജ് റിമൈൻഡർ ചേർക്കുക",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "ഓർമ്മപ്പെടുത്തൽ മോഡ്",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "നിലവിലെ പേജ് ചേർക്കുക",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "നിലവിലെ ടാബ് വായിക്കാൻ കഴിയുന്നില്ല.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "പേജ് പ്രിവ്യൂ ക്യാപ്ചർ ചെയ്യുന്നു...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "പ്രിവ്യൂ ഈ പേജിൽ ലഭ്യമല്ല.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "പ്രിവ്യൂ പിടിച്ചെടുത്തു",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "ഭാവി തീയതി അല്ലെങ്കിൽ കൗണ്ട്ഡൗൺ തിരഞ്ഞെടുക്കുക.",
 		"description": ""
 	}
 }

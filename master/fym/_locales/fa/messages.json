@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "یک صفحه وب را ذخیره کنید و بعداً برای آن یادآوری دریافت کنید.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "یادآوری اضافه شد",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "اضافه کنید",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "پاک کردن",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "برای استفاده از URL فعلی روی Add کلیک کنید یا یک URL را جای‌گذاری کنید",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "بر اساس تاریخ و زمان انتخاب کنید",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "در روز، ساعت و دقیقه انتخاب کنید",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "تعداد روز",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "URL را انتخاب کنید",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "ذخیره کنید",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "یک عنوان را انتخاب کنید",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "عنوان را انتخاب کنید",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "تاریخ و زمان",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "شمارش معکوس",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "عنوان",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "زبان",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "پیش نمایش",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "تاریخ",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "شمارش معکوس",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "یادآوری",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "اقدام",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "حذف کنید",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "رویداد شما",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "در چند لحظه، کمتر از یک دقیقه شروع می شود",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "روی این اعلان کلیک کنید تا پیوند باز شود.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM - صفحه اصلی",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "کروم: FYM - گزینه‌ها",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "یک یادآور صفحه اضافه کنید",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "حالت یادآوری",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "افزودن صفحه فعلی",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "خواندن برگه فعلی ممکن نیست.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "در حال گرفتن پیش نمایش صفحه...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "پیش نمایش در این صفحه در دسترس نیست.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "پیش نمایش گرفته شد",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "تاریخ آینده یا شمارش معکوس را انتخاب کنید.",
 		"description": ""
 	}
 }

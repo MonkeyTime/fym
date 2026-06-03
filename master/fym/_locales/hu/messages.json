@@ -1,58 +1,58 @@
 {
 	"extDesc": {
-		"message": "Save the start date of a service, the release date of a web series, auctions and many things from YOUR Web",
+		"message": "Mentsen el egy weboldalt, és később kapjon emlékeztetőt rá.",
 		"description": ""
 	},
 	"publicationAdded": {
-		"message": "Publication added",
+		"message": "Emlékeztető hozzáadva",
 		"description": ""
 	},
 	"btnAdd": {
-		"message": "Add",
+		"message": "Hozzáadás",
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Clear",
+		"message": "Világos",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "click ADD to add current url or copy/past one url",
+		"message": "Kattintson a Hozzáadás gombra az aktuális URL használatához vagy egy URL beillesztéséhez",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Choose by date @ clock",
+		"message": "Válasszon dátum és idő szerint",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Choose in n days, n hours, n mins",
+		"message": "Válasszon napokban, órákban és percekben",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "number of day(s)",
+		"message": "napok száma",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Choose url",
+		"message": "Válassza ki az URL-t",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validate",
+		"message": "Megtakarítás",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Choose one title",
+		"message": "Válasszon egy címet",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Choose title",
+		"message": "Válasszon címet",
 		"description": ""
 	},
 	"btnDatetime": {
-		"message": "date & clock",
+		"message": "dátum és idő",
 		"description": ""
 	},
 	"btnCountdown": {
-		"message": "countdown",
+		"message": "visszaszámlálás",
 		"description": ""
 	},
 	"id": {
@@ -60,91 +60,91 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Title",
+		"message": "Cím",
 		"description": ""
 	},
 	"url": {
-		"message": "Url",
+		"message": "URL",
 		"description": ""
 	},
 	"lang": {
-		"message": "Lang",
+		"message": "Nyelv",
 		"description": ""
 	},
 	"preview": {
-		"message": "Preview",
+		"message": "Előnézet",
 		"description": ""
 	},
 	"date": {
-		"message": "Date",
+		"message": "Dátum",
 		"description": ""
 	},
 	"countdown": {
-		"message": "Countdown",
+		"message": "Visszaszámlálás",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarm",
+		"message": "Emlékeztető",
 		"description": ""
 	},
 	"action": {
-		"message": "Action",
+		"message": "Akció",
 		"description": ""
 	},
 	"delete": {
-		"message": "Delete",
+		"message": "Töröl",
 		"description": ""
 	},
 	"yourEvent": {
-		"message": "Your Event",
+		"message": "Az Ön eseménye",
 		"description": ""
 	},
 	"startEvent": {
-		"message": "will start in a few moments (less then 1 minute)",
+		"message": "néhány pillanat múlva, kevesebb mint egy percen belül elindul",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Click this dialog to follow links.",
+		"message": "Kattintson erre az értesítésre a hivatkozás megnyitásához.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Home",
+		"message": "Chrome: FYM – Kezdőlap",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - options",
+		"message": "Chrome: FYM - opciók",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Add a page reminder",
+		"message": "Oldal emlékeztető hozzáadása",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Reminder mode",
+		"message": "Emlékeztető mód",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Add current page",
+		"message": "Aktuális oldal hozzáadása",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Unable to read the current tab.",
+		"message": "Az aktuális lap nem olvasható.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturing page preview...",
+		"message": "Oldal előnézetének rögzítése...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Preview unavailable on this page.",
+		"message": "Az előnézet nem érhető el ezen az oldalon.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Preview captured",
+		"message": "Az előnézet rögzítve",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Choose a future date or countdown.",
+		"message": "Válasszon egy jövőbeli dátumot vagy visszaszámlálást.",
 		"description": ""
 	}
 }

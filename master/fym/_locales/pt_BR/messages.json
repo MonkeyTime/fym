@@ -1,6 +1,6 @@
 {
 	"extDesc": {
-		"message": "Salve a data de inicio de um servico, lancamento de serie web, leiloes e muito mais a partir da sua Web",
+		"message": "Salve uma página da web e receba um lembrete mais tarde.",
 		"description": ""
 	},
 	"publicationAdded": {
@@ -12,39 +12,39 @@
 		"description": ""
 	},
 	"btnClear": {
-		"message": "Limpar",
+		"message": "Claro",
 		"description": ""
 	},
 	"inputUrlPlaceholder": {
-		"message": "Clique em ADICIONAR para usar a URL atual ou cole uma URL",
+		"message": "Clique em Adicionar para usar o URL atual ou cole um URL",
 		"description": ""
 	},
 	"labelDateTime": {
-		"message": "Escolher por data e hora",
+		"message": "Escolha por data e hora",
 		"description": ""
 	},
 	"labelDayCount": {
-		"message": "Escolher em dias, horas e minutos",
+		"message": "Escolha em dias, horas e minutos",
 		"description": ""
 	},
 	"inputPlaceholderDay": {
-		"message": "numero de dia(s)",
+		"message": "número de dias",
 		"description": ""
 	},
 	"labelUrl": {
-		"message": "Escolher URL",
+		"message": "Escolha URL",
 		"description": ""
 	},
 	"btnValidate": {
-		"message": "Validar",
+		"message": "Salvar",
 		"description": ""
 	},
 	"inputTitle": {
-		"message": "Escolha um titulo",
+		"message": "Escolha um título",
 		"description": ""
 	},
 	"labelTitle": {
-		"message": "Escolher titulo",
+		"message": "Escolha o título",
 		"description": ""
 	},
 	"btnDatetime": {
@@ -60,7 +60,7 @@
 		"description": ""
 	},
 	"title": {
-		"message": "Titulo",
+		"message": "Título",
 		"description": ""
 	},
 	"url": {
@@ -68,11 +68,11 @@
 		"description": ""
 	},
 	"lang": {
-		"message": "Idioma",
+		"message": "Linguagem",
 		"description": ""
 	},
 	"preview": {
-		"message": "Previa",
+		"message": "Visualização",
 		"description": ""
 	},
 	"date": {
@@ -80,15 +80,15 @@
 		"description": ""
 	},
 	"countdown": {
-		"message": "Contagem",
+		"message": "Contagem regressiva",
 		"description": ""
 	},
 	"alarm": {
-		"message": "Alarme",
+		"message": "Lembrete",
 		"description": ""
 	},
 	"action": {
-		"message": "Acao",
+		"message": "Ação",
 		"description": ""
 	},
 	"delete": {
@@ -100,51 +100,51 @@
 		"description": ""
 	},
 	"startEvent": {
-		"message": "comecara em alguns instantes (menos de 1 minuto)",
+		"message": "começará em alguns instantes, menos de um minuto",
 		"description": ""
 	},
 	"infoEvent": {
-		"message": "Clique nesta notificacao para abrir o link.",
+		"message": "Clique nesta notificação para abrir o link.",
 		"description": ""
 	},
 	"popupTitle": {
-		"message": "Chrome: FYM - Inicio",
+		"message": "Chrome: FYM – Página inicial",
 		"description": ""
 	},
 	"optionsTitle": {
-		"message": "Chrome: FYM - opcoes",
+		"message": "Chrome: FYM - opções",
 		"description": ""
 	},
 	"dialogAddPageReminder": {
-		"message": "Adicionar lembrete de pagina",
+		"message": "Adicione um lembrete de página",
 		"description": ""
 	},
 	"ariaReminderMode": {
-		"message": "Modo de lembrete",
+		"message": "Modo lembrete",
 		"description": ""
 	},
 	"titleAddCurrentPage": {
-		"message": "Adicionar pagina atual",
+		"message": "Adicionar página atual",
 		"description": ""
 	},
 	"errorCurrentTab": {
-		"message": "Nao foi possivel ler a aba atual.",
+		"message": "Não é possível ler a guia atual.",
 		"description": ""
 	},
 	"captureInProgress": {
-		"message": "Capturando previa da pagina...",
+		"message": "Capturando visualização da página...",
 		"description": ""
 	},
 	"captureUnavailable": {
-		"message": "Previa indisponivel nesta pagina.",
+		"message": "Visualização indisponível nesta página.",
 		"description": ""
 	},
 	"captureReady": {
-		"message": "Previa capturada",
+		"message": "Visualização capturada",
 		"description": ""
 	},
 	"errorFutureReminder": {
-		"message": "Escolha uma data futura ou uma contagem regressiva.",
+		"message": "Escolha uma data futura ou contagem regressiva.",
 		"description": ""
 	}
 }
