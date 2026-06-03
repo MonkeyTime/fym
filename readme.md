@@ -64,7 +64,7 @@ The Chrome Web Store expects a ZIP file with `manifest.json` at the archive root
 A generated package is available at:
 
 ```text
-dist/fym-chrome-webstore-v0.3.zip
+dist/fym-chrome-webstore-v0.3.1.zip
 ```
 
 The ZIP contains only the extension runtime files. Web Store listing assets are kept outside the runtime package.
@@ -72,10 +72,10 @@ The ZIP contains only the extension runtime files. Web Store listing assets are 
 An Opera Add-ons compatible package is also generated at:
 
 ```text
-dist/fym-opera-addons-v0.3.zip
+dist/fym-opera-addons-v0.3.1.zip
 ```
 
-This Opera package excludes `_locales` and uses a plain manifest description to avoid Opera upload validator path issues. The runtime JavaScript keeps English fallbacks for UI and notification strings.
+This Opera package includes `_locales` and keeps `default_locale` so Opera Add-ons can use the translated metadata and UI strings.
 
 ## Permissions
 
@@ -93,7 +93,7 @@ FYM does not use remote code. JavaScript files are packaged inside the extension
 
 Reminder data is stored locally with `chrome.storage.local`.
 
-Older versions stored reminders in IndexedDB. Version 0.3 automatically migrates existing IndexedDB reminders to `chrome.storage.local` the first time the extension starts, popup opens or options page opens.
+Older versions stored reminders in IndexedDB. Version 0.3.1 automatically migrates existing IndexedDB reminders to `chrome.storage.local` the first time the extension starts, popup opens or options page opens.
 
 Stored data can include:
 
@@ -139,6 +139,12 @@ node -e "JSON.parse(require('fs').readFileSync('manifest.json','utf8')); console
 ```
 
 ## Changelog
+
+### 0.3.1
+
+- Refreshed all Chrome locale translations.
+- Fixed saved preview rendering in the options page.
+- Added Opera Add-ons package with localized files.
 
 ### 0.3
 
