@@ -8,6 +8,8 @@
   var LEGACY_STORE_NAME = 'alerts';
   var legacyMigrationCallbacks = [];
   var legacyMigrationRunning = false;
+  var captureInProgress = false;
+  var captureCallbacks = [];
   var d = document;
 
   function $(id) {
@@ -423,20 +425,44 @@
   }
 
   function captureTab(windowId) {
+    captureInProgress = true;
+    $('validate').disabled = true;
     setCaptureStatus(message('captureInProgress', 'Capturing page preview...'));
 
     chrome.tabs.captureVisibleTab(windowId, { format: 'jpeg', quality: 70 }, function(dataUrl) {
       if (chrome.runtime.lastError || !dataUrl) {
         $('imgData').value = '';
         setCaptureStatus(message('captureUnavailable', 'Preview unavailable on this page.'));
+        finishCapture();
         return;
       }
 
       resizeCapture(dataUrl, function(resizedDataUrl) {
         $('imgData').value = resizedDataUrl;
         showPreview(resizedDataUrl, message('captureReady', 'Preview captured'));
+        finishCapture();
       });
     });
+  }
+
+  function finishCapture() {
+    var callbacks = captureCallbacks.slice();
+
+    captureInProgress = false;
+    captureCallbacks = [];
+    $('validate').disabled = false;
+    callbacks.forEach(function(callback) {
+      callback();
+    });
+  }
+
+  function afterCapture(callback) {
+    if (!captureInProgress) {
+      callback();
+      return;
+    }
+
+    captureCallbacks.push(callback);
   }
 
   function resizeCapture(dataUrl, callback) {
@@ -516,19 +542,21 @@
       return;
     }
 
-    addPublication(
-      $('url').value.trim(),
-      $('title').value.trim(),
-      $('lang').value.trim(),
-      $('datetimer').hidden ? '' : alarmDate.toISOString(),
-      $('datetimer').hidden ? String(alarmDate.getTime()) : '',
-      $('imgData').value,
-      alarmDate.toISOString(),
-      function() {
-        showMessage(message('publicationAdded', 'Publication added'), false);
-        setTimeout(resetForm, 700);
-      }
-    );
+    afterCapture(function() {
+      addPublication(
+        $('url').value.trim(),
+        $('title').value.trim(),
+        $('lang').value.trim(),
+        $('datetimer').hidden ? '' : alarmDate.toISOString(),
+        $('datetimer').hidden ? String(alarmDate.getTime()) : '',
+        normalizePreview($('imgData').value),
+        alarmDate.toISOString(),
+        function() {
+          showMessage(message('publicationAdded', 'Publication added'), false);
+          setTimeout(resetForm, 700);
+        }
+      );
+    });
   }
 
   function getDateTimeAlarm() {
@@ -569,6 +597,18 @@
     $('whenBtnAddIsClicked').hidden = true;
     setMode('datetime');
     setDefaultDateTime();
+  }
+
+  function normalizePreview(preview) {
+    if (!preview || preview === 'undefined') {
+      return '';
+    }
+
+    if (String(preview).indexOf('data:image/') === 0) {
+      return preview;
+    }
+
+    return 'data:image/jpeg;base64,' + preview;
   }
 
   function setDefaultDateTime() {

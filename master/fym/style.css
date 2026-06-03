@@ -395,6 +395,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	color: #fff;
 }
 
+.fym-icon-button:disabled,
+.fym-primary:disabled {
+	cursor: wait;
+	opacity: .65;
+}
+
 .fym-secondary,
 .fym-tab {
 	background: #fff;
